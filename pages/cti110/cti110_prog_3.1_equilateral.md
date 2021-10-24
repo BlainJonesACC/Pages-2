@@ -8,8 +8,6 @@ sidebar: cti110_sidebar
 permalink: prog_3.1_equilateral.html
 folder: cti110
 ---
-# Project 3.1
-
 ## Program: equilateral.py
 
 ### Instructions

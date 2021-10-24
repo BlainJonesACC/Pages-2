@@ -8,8 +8,6 @@ sidebar: cti110_sidebar
 permalink: prog_3.11_sevens.html
 folder: cti110
 ---
-# Project 3.11
-
 ## Program: sevens.py
 
 Instructions

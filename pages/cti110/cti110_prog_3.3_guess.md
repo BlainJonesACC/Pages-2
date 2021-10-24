@@ -8,8 +8,6 @@ sidebar: cti110_sidebar
 permalink: prog_3.3_guess.html
 folder: cti110
 ---
-# Project 3.3
-
 ## Program: guess.py
 
 ### Instructions

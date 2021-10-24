@@ -8,8 +8,6 @@ sidebar: cti110_sidebar
 permalink: prog_3.4_bouncy.html
 folder: cti110
 ---
-# Project 3.4
-
 ## Program: bouncy.py
 
 ### Instructions

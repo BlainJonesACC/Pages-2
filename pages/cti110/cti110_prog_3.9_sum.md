@@ -8,8 +8,6 @@ sidebar: cti110_sidebar
 permalink: prog_3.9_sum.html
 folder: cti110
 ---
-# Project 3.9
-
 ## Program: sum.py
 
 ### Instructions

@@ -8,8 +8,6 @@ sidebar: cti110_sidebar
 permalink: prog_3.7_salary.html
 folder: cti110
 ---
-# Project 3.7
-
 ## Program: salary.py
 
 ### Instructions

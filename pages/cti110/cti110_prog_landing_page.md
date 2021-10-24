@@ -3,18 +3,12 @@ title: Programming
 tags: [programming]
 keywords: notes, tips, cautions, warnings, admonitions
 last_updated: October 23, 2021
-summary: "You can insert notes, tips, warnings, and important alerts in your content. These notes are stored as shortcodes made available through the linksrefs.hmtl include."
+# summary: "You can insert notes, tips, warnings, and important alerts in your content. These notes are stored as shortcodes made available through the linksrefs.hmtl include."
 sidebar: cti110_sidebar
 permalink: cti110_prog_landing_page.html
 folder: cti110
 ---
-# Programming
-
-## Instruction
-
-<!-- ### Flowchart Examples
-
-- [ ]  -->
+## Instructions and Flowcharts
 
 ### Chapter 1
 

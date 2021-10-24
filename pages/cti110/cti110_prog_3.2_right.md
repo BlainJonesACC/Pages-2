@@ -8,8 +8,6 @@ sidebar: cti110_sidebar
 permalink: prog_3.2_right.html
 folder: cti110
 ---
-# Project 3.2
-
 ## Program: right.py
 
 ### Instructions

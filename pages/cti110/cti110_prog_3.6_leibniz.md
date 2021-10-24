@@ -8,8 +8,6 @@ sidebar: cti110_sidebar
 permalink: prog_3.6_leibniz.html
 folder: cti110
 ---
-# Project 3.6
-
 ## Program: leibniz.py
 
 ### Instructions

@@ -8,8 +8,6 @@ sidebar: cti110_sidebar
 permalink: prog_2.4_sphere.html
 folder: cti110
 ---
-# Project 2.4
-
 ## Program: sphere.py
 
 ### Instruction

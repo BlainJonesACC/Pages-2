@@ -8,8 +8,6 @@ sidebar: cti110_sidebar
 permalink: prog_3.10_tidbit.html
 folder: cti110
 ---
-# Project 3.10
-
 ## Program: tidbit.py
 
 The credit plan at TidBit Computer Store specifies a 10% down payment and an annual interest rate of 12%. Monthly payments are 5% of the listed purchase price, minus the down payment.

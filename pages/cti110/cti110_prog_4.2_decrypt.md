@@ -8,8 +8,6 @@ sidebar: cti110_sidebar
 permalink: prog_4.2_decrypt.html
 folder: cti110
 ---
-# Project 4.2
-
 ## Program: decrypt.py
 
 ### Instructions

@@ -8,8 +8,6 @@ sidebar: cti110_sidebar
 permalink: prog_4.1_payroll.html
 folder: cti110
 ---
-# Project 4.1
-
 ## Program: encrypt.py
 
 ### Instructions

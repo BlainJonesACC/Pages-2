@@ -8,8 +8,6 @@ sidebar: cti110_sidebar
 permalink: prog_3.5_population.html
 folder: cti110
 ---
-# Project 3.5
-
 ## Program: population.py
 
 ### Instructions

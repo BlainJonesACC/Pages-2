@@ -8,8 +8,6 @@ sidebar: cti110_sidebar
 permalink: prog_3.8_gcd.html
 folder: cti110
 ---
-# Project 3.8
-
 ## Program: gcd.py
 
 ### Instructions

@@ -8,8 +8,6 @@ sidebar: cti110_sidebar
 permalink: prog_4.11_textanalysis.html
 folder: cti110
 ---
-# Project 4.11
-
 ## Program: textanalysis.py
 
 ### Instructions

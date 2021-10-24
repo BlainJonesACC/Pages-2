@@ -8,8 +8,6 @@ sidebar: cti110_sidebar
 permalink: prog_4.12_payroll.html
 folder: cti110
 ---
-# Project 4.12
-
 ## Program: payroll.py
 
 ### Instructions

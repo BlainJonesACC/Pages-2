@@ -8,9 +8,6 @@ sidebar: cti110_sidebar
 permalink: prog_4.3_project_4.3.html
 folder: cti110
 ---
-
-# Project 4.3
-
 ## Program: encrypt.py decrypt.py
 
 ### Instructions
