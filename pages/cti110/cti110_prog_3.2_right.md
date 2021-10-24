@@ -1,3 +1,13 @@
+---
+title: Project 3.2
+tags: [flowchart]
+keywords: notes, tips, cautions, warnings, admonitions
+last_updated: October 23, 2021
+# summary: "You can insert notes, tips, warnings, and important alerts in your content. These notes are stored as shortcodes made available through the linksrefs.hmtl include."
+sidebar: cti110_sidebar
+permalink: prog_3.2_right.html
+folder: cti110
+---
 # Project 3.2
 
 ## Program: right.py
@@ -25,7 +35,7 @@ The triangle is a right triangle.
 
 #### Flowchart
 
-![right flowchart](right.flowchart.svg)
+![right flowchart](images/cti110_prog_3.2_right.flowchart.svg)
 
 ---
 

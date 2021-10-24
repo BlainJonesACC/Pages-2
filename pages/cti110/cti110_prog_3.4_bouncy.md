@@ -1,3 +1,13 @@
+---
+title: Project 3.4
+tags: [flowchart]
+keywords: notes, tips, cautions, warnings, admonitions
+last_updated: October 23, 2021
+# summary: "You can insert notes, tips, warnings, and important alerts in your content. These notes are stored as shortcodes made available through the linksrefs.hmtl include."
+sidebar: cti110_sidebar
+permalink: prog_3.4_bouncy.html
+folder: cti110
+---
 # Project 3.4
 
 ## Program: bouncy.py
@@ -24,7 +34,7 @@ Total distance traveled is: 65.625 units.
 
 #### Flowchart
 
-![bounce flowchart](bouncy.flowchart.svg)
+![bounce flowchart](images/cti110_prog_3.4_bouncy.flowchart.svg)
 
 ---
 

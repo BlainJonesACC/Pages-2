@@ -1,3 +1,13 @@
+---
+title: Project 4.3
+tags: [flowchart]
+keywords: notes, tips, cautions, warnings, admonitions
+last_updated: October 23, 2021
+# summary: "You can insert notes, tips, warnings, and important alerts in your content. These notes are stored as shortcodes made available through the linksrefs.hmtl include."
+sidebar: cti110_sidebar
+permalink: prog_4.3_project_4.3.html
+folder: cti110
+---
 
 # Project 4.3
 
@@ -20,11 +30,11 @@ Enter the distance value: 3
 
 #### Encrypt
 
-![encrypt flowchart](encrypt.flowchart.svg)
+![encrypt flowchart](images/cti110_prog_4.3_encrypt.flowchart.svg)
 
 #### Decrypt
 
-![decrypt flowchart](decrypt.flowchart.svg)
+![decrypt flowchart](images/cti110_prog_4.3_decrypt.flowchart.svg)
 
 ---
 

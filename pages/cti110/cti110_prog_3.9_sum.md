@@ -1,3 +1,13 @@
+---
+title: Project 3.9
+tags: [flowchart]
+keywords: notes, tips, cautions, warnings, admonitions
+last_updated: October 23, 2021
+# summary: "You can insert notes, tips, warnings, and important alerts in your content. These notes are stored as shortcodes made available through the linksrefs.hmtl include."
+sidebar: cti110_sidebar
+permalink: prog_3.9_sum.html
+folder: cti110
+---
 # Project 3.9
 
 ## Program: sum.py
@@ -25,7 +35,7 @@ The average is 2.0
 
 #### Flowchart
 
-![flowchart](sum.flowchart.svg)
+![flowchart](images/cti110_prog_3.9_sum.flowchart.svg)
 
 ---
 

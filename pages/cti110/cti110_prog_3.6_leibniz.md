@@ -1,3 +1,13 @@
+---
+title: Project 3.6
+tags: [flowchart]
+keywords: notes, tips, cautions, warnings, admonitions
+last_updated: October 23, 2021
+# summary: "You can insert notes, tips, warnings, and important alerts in your content. These notes are stored as shortcodes made available through the linksrefs.hmtl include."
+sidebar: cti110_sidebar
+permalink: prog_3.6_leibniz.html
+folder: cti110
+---
 # Project 3.6
 
 ## Program: leibniz.py
@@ -22,7 +32,7 @@ The approximation of pi is 3.3396825396825403
 
 ---
 
-![flowchart](leibniz.flowchart.svg)
+![flowchart](images/cti110_prog_3.6_leibniz.flowchart.svg)
 
 ---
 

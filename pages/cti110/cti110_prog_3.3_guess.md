@@ -1,3 +1,13 @@
+---
+title: Project 3.3
+tags: [flowchart]
+keywords: notes, tips, cautions, warnings, admonitions
+last_updated: October 23, 2021
+# summary: "You can insert notes, tips, warnings, and important alerts in your content. These notes are stored as shortcodes made available through the linksrefs.hmtl include."
+sidebar: cti110_sidebar
+permalink: prog_3.3_guess.html
+folder: cti110
+---
 # Project 3.3
 
 ## Program: guess.py
@@ -54,7 +64,7 @@ I'm out of guesses, and you cheated!
 
 ---
 
-![flowchart](guess.flowchart.svg)
+![flowchart](images/cti110_prog_3.3_guess.flowchart.svg)
 
 ---
 
