@@ -3,10 +3,10 @@ repository: BlainJonesACC/Pages-2
 output: web
 # this property is useful for conditional filtering of content that is separate from the PDF.
 
-topnav_title: Blain's World Documentation 
+topnav_title: Blain's World  
 # this appears on the top navigation bar next to the home button
 
-site_title: Blain's World documentation
+site_title: Blain's World
 # this appears in the html browser tab for the site title (seen mostly by search engines, not users)
 
 company_name: Blain's World
@@ -33,7 +33,7 @@ exclude:
   - vendor
 # these are the files and directories that jekyll will exclude from the build
 
-feedback_subject_line: Blain's World documentation 
+feedback_subject_line: Blain's World 
 
 feedback_email: brjones306@alamancecc.edu
 # used as a contact email for the Feedback link in the top navigation bar
