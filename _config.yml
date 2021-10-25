@@ -3,10 +3,10 @@ repository: BlainJonesACC/Pages-2
 output: web
 # this property is useful for conditional filtering of content that is separate from the PDF.
 
-topnav_title: Blain's World  
+topnav_title: Alamance CC
 # this appears on the top navigation bar next to the home button
 
-site_title: Blain's World
+site_title: Blain's World @ ACC
 # this appears in the html browser tab for the site title (seen mostly by search engines, not users)
 
 company_name: Blain's World
