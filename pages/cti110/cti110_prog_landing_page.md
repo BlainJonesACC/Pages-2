@@ -12,7 +12,8 @@ folder: cti110
 
 ### Chapter 1
 
-<!-- - [ ] Project 1.1
+<!-- 
+- [ ][Project 1.1](cti110_prog_2.4_sphere)
 - [ ] Project 1.2
 - [ ] Project 1.3
 - [ ] Project 1.4
@@ -64,3 +65,40 @@ folder: cti110
 - [ ] Project 4.10
 - [X] [Project 4.11](prog_4.11_textanalysis)
 - [X] [Project 4.12](prog_4.12_payroll)
+
+<table>
+<colgroup>
+<col width="30%" />
+<col width="70%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th>### Chapter 1</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td markdown="span">
+[Project 1.1](prog_2.4_sphere)
+
+Project 1.2
+
+ Project 1.3
+ Project 1.4
+ Project 1.5
+ Project 1.6
+ Project 1.7
+ Project 1.8
+ Project 1.9
+ Project 1.10
+</td>
+<td markdown="span">Some descriptive text. This is a markdown link to [Google](http://google.com). Or see [some link][mydoc_tags].</td>
+</tr>
+<tr>
+<td markdown="span">Second column **fields**</td>
+<td markdown="span">Some more descriptive text.
+</td>
+</tr>
+</tbody>
+</table>

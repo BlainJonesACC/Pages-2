@@ -8,7 +8,7 @@ sidebar: cti110_sidebar
 permalink: cti110_mindtap_landing_page.html
 folder: cti110
 ---
-# MindTap How-To's
+<!-- # MindTap How-To's -->
 
 ## Copping Share link to your code from MindTap
 
