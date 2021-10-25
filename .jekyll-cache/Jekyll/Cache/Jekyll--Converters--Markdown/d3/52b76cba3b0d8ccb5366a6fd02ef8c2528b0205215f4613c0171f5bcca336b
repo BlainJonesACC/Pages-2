@@ -1,0 +1,80 @@
+I"<!-- # Tutorial 4: Coding Challenge 4 -->
+
+<h2 id="links-to-helpful-sites">Links to helpful sites</h2>
+
+<hr />
+
+<h3 id="text-shadow---css-cascading-style-sheets--mdn"><a href="https://developer.mozilla.org/en-US/docs/Web/CSS/text-shadow">text-shadow - CSS: Cascading Style Sheets | MDN</a></h3>
+
+<p>The text-shadow CSS property adds shadows to text. It accepts a comma-separated list of shadows to be applied to the text and any of its decorations. Each shadow is described by some combination of X and Y offsets from the element, blur radius, and color.</p>
+
+<hr />
+
+<h3 id="box-shadow---css-cascading-style-sheets--mdn"><a href="https://developer.mozilla.org/en-US/docs/Web/CSS/box-shadow">box-shadow - CSS: Cascading Style Sheets | MDN</a></h3>
+
+<p>The box-shadow CSS property adds shadow effects around an element’s frame. You can set multiple effects separated by commas. A box shadow is described by X and Y offsets relative to the element, blur and spread radius, and color.</p>
+
+<h4 id="syntax">Syntax</h4>
+
+<div class="language-css highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="c">/* offset-x | offset-y | blur-radius | spread-radius | color */</span>
+<span class="nt">box-shadow</span><span class="o">:</span> <span class="err">2</span><span class="nt">px</span> <span class="err">2</span><span class="nt">px</span> <span class="err">2</span><span class="nt">px</span> <span class="err">1</span><span class="nt">px</span> <span class="nt">rgba</span><span class="o">(</span><span class="err">0</span><span class="o">,</span> <span class="err">0</span><span class="o">,</span> <span class="err">0</span><span class="o">,</span> <span class="err">0</span><span class="o">.</span><span class="err">2</span><span class="o">);</span>
+</code></pre></div></div>
+
+<hr />
+
+<h3 id="border-image---css-cascading-style-sheets--mdn"><a href="https://developer.mozilla.org/en-US/docs/Web/CSS/border-image">border-image - CSS: Cascading Style Sheets | MDN</a></h3>
+
+<p>The border-image CSS property draws an image around a given element. It replaces the element’s regular border.</p>
+
+<h4 id="syntax-1">Syntax</h4>
+
+<div class="language-css highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="c">/* source | slice */</span>
+<span class="nt">border-image</span><span class="o">:</span> <span class="nt">linear-gradient</span><span class="o">(</span><span class="nt">red</span><span class="o">,</span> <span class="nt">blue</span><span class="o">)</span> <span class="err">27</span><span class="o">;</span>
+</code></pre></div></div>
+
+<hr />
+
+<h3 id="background---css-cascading-style-sheets--mdn"><a href="https://developer.mozilla.org/en-US/docs/Web/CSS/background">background - CSS: Cascading Style Sheets | MDN</a></h3>
+
+<p>The background shorthand CSS property sets all background style properties at once, such as color, image, origin and size, or repeat method.</p>
+
+<hr />
+
+<h3 id="radial-gradient---css-cascading-style-sheets--mdn"><a href="https://developer.mozilla.org/en-US/docs/Web/CSS/gradient/radial-gradient()">radial-gradient() - CSS: Cascading Style Sheets | MDN</a></h3>
+
+<p>The radial-gradient() CSS function creates an image consisting of a progressive transition between two or more colors that radiate from an origin. Its shape may be a circle or an ellipse. The function’s result is an object of the &lt;gradient&gt; data type, which is a special kind of &lt;image&gt;.</p>
+
+<h4 id="syntax-2">Syntax</h4>
+
+<div class="language-css highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nt">radial-gradient</span><span class="o">(</span><span class="nt">shape</span> <span class="nt">size</span> <span class="nt">at</span> <span class="nt">position</span><span class="o">,</span> <span class="nt">start-color</span><span class="o">,</span> <span class="o">...,</span> <span class="nt">last-color</span><span class="o">);</span>
+</code></pre></div></div>
+
+<hr />
+
+<h3 id="circle---css-cascading-style-sheets--mdn"><a href="https://developer.mozilla.org/en-US/docs/Web/CSS/basic-shape/circle()">circle() - CSS: Cascading Style Sheets | MDN</a></h3>
+
+<p>The circle() CSS function is one of the &lt;basic-shape&gt; data types.</p>
+
+<h4 id="syntax-3">Syntax</h4>
+
+<div class="language-css highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nt">shape-outside</span><span class="o">:</span> <span class="nt">circle</span><span class="o">(</span><span class="err">50</span><span class="o">%);</span>
+<span class="nt">clip-path</span><span class="o">:</span> <span class="nt">circle</span><span class="o">(</span><span class="err">6</span><span class="nt">rem</span> <span class="nt">at</span> <span class="err">12</span><span class="nt">rem</span> <span class="err">8</span><span class="nt">rem</span><span class="o">);</span>
+</code></pre></div></div>
+
+<hr />
+
+<h3 id="url---css-cascading-style-sheets--mdn"><a href="https://developer.mozilla.org/en-US/docs/Web/CSS/url()">url() - CSS: Cascading Style Sheets | MDN</a></h3>
+
+<p>The url() CSS function is used to include a file. The parameter is an absolute URL, a relative URL, or a data URI. The url() function can be passed as a parameter of another CSS functions, like the attr() function. Depending on the property for which it is a value, the resource sought can be an image, font, or a stylesheet. The url() functional notation is the value for the &lt;url&gt; data type.</p>
+
+<h4 id="syntax-4">Syntax</h4>
+
+<div class="language-css highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="c">/* Simple usage */</span>
+<span class="nt">url</span><span class="o">(</span><span class="nt">https</span><span class="o">://</span><span class="nt">example</span><span class="nc">.com</span><span class="o">/</span><span class="nt">images</span><span class="o">/</span><span class="nt">myImg</span><span class="nc">.jpg</span><span class="o">);</span>
+<span class="nt">url</span><span class="o">(</span><span class="nt">data</span><span class="nd">:image</span><span class="o">/</span><span class="nt">png</span><span class="o">;</span><span class="nt">base64</span><span class="o">,</span><span class="nt">iRxVB0</span><span class="err">…</span><span class="o">);</span>
+<span class="nt">url</span><span class="o">(</span><span class="nt">myFont</span><span class="nc">.woff</span><span class="o">);</span>
+<span class="nt">url</span><span class="o">(</span><span class="nf">#IDofSVGpath</span><span class="o">);</span>
+</code></pre></div></div>
+
+<h4 id="link-to-slideshow"><a href="../Tutorial_Hints/export/export/index.html">Link to slideshow</a></h4>
+:ET

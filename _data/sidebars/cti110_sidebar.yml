@@ -42,6 +42,11 @@ entries:
     output: web, pdf
     folderitems:
 
+    - title: MindTap Tips
+      url: /cti110_mindtap_landing_page.html
+      output: web, pdf
+      type: homepage
+
     - title: Web
       url: /cti110_web_landing_page.html
       output: web, pdf
@@ -51,6 +56,12 @@ entries:
       url: /cti110_prog_landing_page.html
       output: web, pdf
       type: homepage
+
+    - title: Database
+      url: /cti110_db_landing_page.html
+      output: web, pdf
+      type: homepage
+
 
   #   - title: Introduction
   #     url: /mydoc_introduction.html

@@ -1,5 +1,5 @@
 ---
-title: "Blain's World"
+title: "Blain's World @ ACC"
 keywords: sample homepage
 tags: [getting_started]
 sidebar: bwdoc_sidebar
@@ -9,16 +9,5 @@ permalink: index.html
 
 ## Welcome to my GitHub Pages
 
-![Under Construction](new-content-coming-soon-web-page-is-under.png)
+![Under Construction](images/new-content-coming-soon-web-page-is-under.png)
 
-### MindTap Tips
-
-- [MindTap Share Link instruction](./MindTap_Share_URL/Readme.md)
-
-### CTI-110 Assignments Hints
-
-- [Web](Web/Readme.md)
-
-- [Programming](Prog/Readme.md)
-
-- Database
