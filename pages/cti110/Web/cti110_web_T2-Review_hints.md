@@ -14,7 +14,7 @@ folder: cti110/web
 
 ---
 
-### [@charset - CSS: Cascading Style Sheets | MDN](https://developer.mozilla.org/en-US/docs/Web/CSS/@charset)
+##### [@charset - CSS: Cascading Style Sheets | MDN](https://developer.mozilla.org/en-US/docs/Web/CSS/@charset)
 
 > @charset
 The @charset CSS at-rule specifies the character encoding used in the style sheet. It must be the first element in the style sheet and not be preceded by any character; as it is not a nested statement, it cannot be used inside conditional group at-rules. If several @charset at-rules are defined, only the first one is used, and it cannot be used inside a style attribute on an HTML element or inside the \<style> element where the character set of the HTML page is relevant.
@@ -25,11 +25,11 @@ The @charset CSS at-rule specifies the character encoding used in the style shee
 
 ---
 
-### [@font-face - CSS: Cascading Style Sheets | MDN](https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face)
+#### [@font-face - CSS: Cascading Style Sheets | MDN](https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face)
 
 > The @font-face CSS at-rule specifies a custom font with which to display text; the font can be loaded from either a remote server or a locally-installed font on the user's own computer.
 
-#### Syntax
+##### Syntax
 
 ```css
 @font-face {
@@ -41,11 +41,11 @@ The @charset CSS at-rule specifies the character encoding used in the style shee
 
 ---
 
-### [background-color - CSS: Cascading Style Sheets | MDN](https://developer.mozilla.org/en-US/docs/Web/CSS/background-color)
+#### [background-color - CSS: Cascading Style Sheets | MDN](https://developer.mozilla.org/en-US/docs/Web/CSS/background-color)
 
 > The background-color CSS property sets the background color of an element.
 
-#### Syntax
+##### Syntax
 
 ```css
 /* Keyword values */
@@ -75,12 +75,12 @@ background-color: transparent;
 
 ---
 
-### [color - CSS: Cascading Style Sheets | MDN](https://developer.mozilla.org/en-US/docs/Web/CSS/color)
+#### [color - CSS: Cascading Style Sheets | MDN](https://developer.mozilla.org/en-US/docs/Web/CSS/color)
 
 > The color CSS property sets the foreground color value of an element's text and text decorations, and sets the \<currentcolor> value. currentcolor may be used as an indirect value on other properties and is the default for other color properties, such as border-color.
 For an overview of using color in HTML, see Applying color to HTML elements using CSS.
 
-#### Syntax
+##### Syntax
 
 ```css
 /* Keyword values */
@@ -117,7 +117,7 @@ color: hsla(30.2 100% 50% / 60%);
 
 ---
 
-### [font-family - CSS: Cascading Style Sheets | MDN](https://developer.mozilla.org/en-US/docs/Web/CSS/font-family)
+#### [font-family - CSS: Cascading Style Sheets | MDN](https://developer.mozilla.org/en-US/docs/Web/CSS/font-family)
 
 > The font-family CSS property specifies a prioritized list of one or more font family names and/or generic family names for the selected element.
 Values are separated by commas to indicate that they are alternatives. The browser will select the first font in the list that is installed or that can be downloaded using a @font-face at-rule.
@@ -128,7 +128,7 @@ You should always include at least one generic family name in a font-family list
 
 The font-family property specifies a list of fonts, from highest priority to lowest. Font selection does not stop at the first font in the list that is on the user's system. Rather, font selection is done one character at a time, so that if an available font does not have a glyph for a needed character, the latter fonts are tried. When a font is only available in some styles, variants, or sizes, those properties may also influence which font family is chosen.
 
-#### Syntax
+##### Syntax
 
 ```css
 /* A font family name and a generic family name */
@@ -153,17 +153,17 @@ font-family: fangsong;
 
 ---
 
-### [font - CSS: Cascading Style Sheets | MDN](https://developer.mozilla.org/en-US/docs/Web/CSS/font)
+#### [font - CSS: Cascading Style Sheets | MDN](https://developer.mozilla.org/en-US/docs/Web/CSS/font)
 
 > The font CSS shorthand property sets all the different properties of an element's font. Alternatively, it sets an element's font to a system font.
 
 ---
 
-### [text-align - CSS: Cascading Style Sheets | MDN](https://developer.mozilla.org/en-US/docs/Web/CSS/text-align)
+#### [text-align - CSS: Cascading Style Sheets | MDN](https://developer.mozilla.org/en-US/docs/Web/CSS/text-align)
 
 > The text-align CSS property sets the horizontal alignment of the content inside a block element or table-cell box. This means it works like vertical-align but in the horizontal direction.
 
-#### Syntax
+##### Syntax
 
 ```css
 /* Keyword values */
@@ -187,7 +187,7 @@ text-align: -webkit-center;
 
 ---
 
-### [padding-left - CSS: Cascading Style Sheets | MDN](https://developer.mozilla.org/en-US/docs/Web/CSS/padding-left)
+#### [padding-left - CSS: Cascading Style Sheets | MDN](https://developer.mozilla.org/en-US/docs/Web/CSS/padding-left)
 
 > The padding-left CSS property sets the width of the padding area to the left of an element.
 
@@ -195,7 +195,7 @@ An element's padding area is the space between its content and its border.
 
 Note: The padding property can be used to set paddings on all four sides of an element with a single declaration.
 
-#### Syntax
+##### Syntax
 
 ```css
 /* <length> values */
@@ -209,11 +209,11 @@ padding-left: 10%;
 
 ---
 
-### [font-weight - CSS: Cascading Style Sheets | MDN](https://developer.mozilla.org/en-US/docs/Web/CSS/font-weight)
+#### [font-weight - CSS: Cascading Style Sheets | MDN](https://developer.mozilla.org/en-US/docs/Web/CSS/font-weight)
 
 > The font-weight CSS property sets the weight (or boldness) of the font. The weights available depend on the font-family that is currently set.
 
-#### Syntax
+##### Syntax
 
 ```css
 /* Keyword values */
@@ -223,11 +223,11 @@ font-weight: bold;
 
 ---
 
-### [letter-spacing - CSS: Cascading Style Sheets | MDN](https://developer.mozilla.org/en-US/docs/Web/CSS/letter-spacing)
+#### [letter-spacing - CSS: Cascading Style Sheets | MDN](https://developer.mozilla.org/en-US/docs/Web/CSS/letter-spacing)
 
 > The letter-spacing CSS property sets the horizontal spacing behavior between text characters. This value is added to the natural spacing between characters while rendering the text. Positive values of letter-spacing causes characters to spread farther apart, while negative values of letter-spacing bring characters closer together.
 
-#### Syntax
+##### Syntax
 
 ```css
 /* Keyword value */
@@ -241,11 +241,11 @@ letter-spacing: 0.3px;
 
 ---
 
-### [quotes - CSS: Cascading Style Sheets | MDN](https://developer.mozilla.org/en-US/docs/Web/CSS/quotes)
+#### [quotes - CSS: Cascading Style Sheets | MDN](https://developer.mozilla.org/en-US/docs/Web/CSS/quotes)
 
 > The quotes CSS property sets how the browser should render quotation marks that are added using the open-quotes or close-quotes values of the CSS content property.
 
-#### Syntax
+##### Syntax
 
 ```css
 /* Keyword value */
@@ -259,11 +259,11 @@ quotes: "«" "»" "‹" "›";   /* Set two levels of quotation marks */
 
 ---
 
-### [content - CSS: Cascading Style Sheets | MDN](https://developer.mozilla.org/en-US/docs/Web/CSS/content)
+#### [content - CSS: Cascading Style Sheets | MDN](https://developer.mozilla.org/en-US/docs/Web/CSS/content)
 
 > The content CSS property replaces an element with a generated value. Objects inserted using the content property are anonymous replaced elements.
 
-#### Syntax
+##### Syntax
 
 ```css
 /* Keywords that cannot be combined with other values */
@@ -299,11 +299,11 @@ content: no-close-quote;
 
 ---
 
-### [line-height - CSS: Cascading Style Sheets | MDN](https://developer.mozilla.org/en-US/docs/Web/CSS/line-height)
+#### [line-height - CSS: Cascading Style Sheets | MDN](https://developer.mozilla.org/en-US/docs/Web/CSS/line-height)
 
 > The line-height CSS property sets the height of a line box. It's commonly used to set the distance between lines of text. On block-level elements, it specifies the minimum height of line boxes within the element. On non-replaced inline elements, it specifies the height that is used to calculate line box height.
 
-#### Syntax
+##### Syntax
 
 ```css
 /* Keyword value */
