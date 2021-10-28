@@ -20,4 +20,3 @@ folder: cti110
 ### MindTap Tips
 
 - [MindTap Share Link instruction](cti110_mindtap_landing_page)
-
