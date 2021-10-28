@@ -29,7 +29,7 @@ folder: cti110
 - [ ] Project 2.1
 - [ ] Project 2.2
 - [ ] Project 2.3
-- [ ] [Project 2.4](prog_2.4_sphere)
+- [ ] [Project 2.4](cti110_p_2.4_sphere.md)
 - [ ] Project 2.5
 - [ ] Project 2.6
 - [ ] Project 2.7
@@ -66,6 +66,7 @@ folder: cti110
 - [X] [Project 4.11](prog_4.11_textanalysis)
 - [X] [Project 4.12](prog_4.12_payroll)
 
+<!-- 
 <table>
 <colgroup>
 <col width="30%" />
@@ -101,4 +102,5 @@ Project 1.2
 </td>
 </tr>
 </tbody>
-</table>
+</table> 
+-->
