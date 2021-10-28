@@ -16,23 +16,28 @@ Below are the steps to get a copy of a link to your code. This link can be share
 
 You can email me the share URL of your code with the Share feature and I'll look over your code. See images below for steps to copy URL.
 
---
+---
 
-### Step1: Click on Share icon
+### Step 1: Click on Share icon
 
-![Share icon](https://blainjonesacc.github.io/Pages/MindTap_Share_URL/MindTap_share-1.png)
-<!-- <img src="https://blainjonesacc.github.io/Pages/MindTap_Share_URL/MindTap_share-1.png" width="400px" /> -->
+<!-- 
+![Share icon](https://blainjonesacc.github.io/Pages/MindTap_Share_URL/MindTap_share-1.png) 
+<img src="https://blainjonesacc.github.io/Pages-2/MindTap_Share_URL/MindTap_share-1.png" width="400px" /> -->
 
---
+{% include image.html file="MindTap_share-1.png" url="https://blainjonesacc.github.io/Pages-2" alt="Click on Share icon"  max-width="600" %}
+
+---
 
 ### Step 2: Then click on Get Share URL
 
-![Get Share URL](https://blainjonesacc.github.io/Pages/MindTap_Share_URL/MindTap_share-2.png)
-<!-- <img src="https://blainjonesacc.github.io/Pages/MindTap_Share_URL/MindTap_share-2.png" width="400px" /> -->
+<!-- ![Get Share URL](https://blainjonesacc.github.io/Pages/MindTap_Share_URL/MindTap_share-2.png)
+<img src="https://blainjonesacc.github.io/Pages/MindTap_Share_URL/MindTap_share-2.png" width="400px" /> -->
+{% include image.html file="MindTap_share-3.png" url="https://blainjonesacc.github.io/Pages-2" alt="Then click on Get Share URL"  max-width="600" %}
 
---
+---
 
 ### Step 3: Then click on the copy icon
 
-![Copy URL](https://blainjonesacc.github.io/Pages/MindTap_Share_URL/MindTap_share-3.png)
-<!-- <img src="https://blainjonesacc.github.io/Pages/MindTap_Share_URL/MindTap_share-3.png" width="400px" /> -->
+<!-- ![Copy URL](https://blainjonesacc.github.io/Pages/MindTap_Share_URL/MindTap_share-3.png)
+<img src="https://blainjonesacc.github.io/Pages/MindTap_Share_URL/MindTap_share-3.png" width="400px" /> -->
+{% include image.html file="MindTap_share-3.png" url="https://blainjonesacc.github.io/Pages-2" alt="Then click on the copy icon"  max-width="600" %}
