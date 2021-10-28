@@ -1,0 +1,61 @@
+I"v<h2 id="instructions">Instructions</h2>
+
+<p>Use the strategy of the decimal to binary conversion implemented in Project 4, and the bit shift left operation defined in Project 5 to code a new encryption algorithm.</p>
+
+<p>The algorithm should</p>
+
+<ul>
+  <li>Add 1 to each character’s numeric ASCII value.</li>
+  <li>Convert it to a bit string.</li>
+  <li>Shift the bits of this string one place to the left.</li>
+</ul>
+
+<p>A single-space character in the encrypted string separates the resulting bit strings.</p>
+
+<p>An example of the program input and output is shown below:</p>
+
+<div class="language-text highlighter-rouge"><div class="highlight"><pre class="highlight"><code>Enter a message: Hello world!
+
+0010011 1001101 1011011 1011011 1100001 000011 1110001 1100001 1100111 1011011 1001011 000101
+</code></pre></div></div>
+
+<hr />
+
+<h3 id="flowchart">Flowchart</h3>
+
+<p>![encrypt flowchart]</p>
+
+<hr />
+
+<h3 id="starter-code">Starter Code</h3>
+
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="s">"""
+File: encrypt.py
+Probject 4.6
+
+Encypts an input string of characters and prints
+the result.
+"""</span>
+
+<span class="c1"># Prompt user to enter a message
+</span><span class="n">plainText</span> <span class="o">=</span> <span class="nb">input</span><span class="p">(</span><span class="s">"Enter a message: "</span><span class="p">)</span>
+<span class="c1"># Initialize variable to store encrypted text
+</span><span class="n">code</span> <span class="o">=</span> <span class="s">""</span>
+<span class="c1"># iterate
+</span><span class="k">for</span> <span class="n">ch</span> <span class="ow">in</span> <span class="n">plainText</span><span class="p">:</span>
+    <span class="c1"># Add 1 to ASCII value
+</span>    <span class="n">ordValue</span> <span class="o">=</span> <span class="nb">ord</span><span class="p">(</span><span class="n">ch</span><span class="p">)</span> <span class="o">+</span> <span class="mi">1</span>
+    <span class="c1"># Convert to binary
+</span>    <span class="n">bstring</span> <span class="o">=</span> <span class="s">""</span>
+    <span class="k">while</span> <span class="n">ordValue</span> <span class="o">&gt;</span> <span class="mi">0</span><span class="p">:</span>
+        <span class="n">remainder</span> <span class="o">=</span> <span class="n">ordValue</span> <span class="o">%</span> <span class="mi">2</span>
+        <span class="n">ordValue</span> <span class="o">=</span> <span class="n">ordValue</span> <span class="o">//</span> <span class="mi">2</span>
+        <span class="n">bstring</span> <span class="o">=</span> <span class="nb">str</span><span class="p">(</span><span class="n">remainder</span><span class="p">)</span> <span class="o">+</span> <span class="n">bstring</span>
+    <span class="c1"># Shift one bit to left
+</span>    <span class="k">if</span> <span class="nb">len</span><span class="p">(</span><span class="n">bstring</span><span class="p">)</span> <span class="o">&gt;</span> <span class="mi">1</span><span class="p">:</span>
+        <span class="n">bstring</span> <span class="o">=</span> <span class="n">bstring</span><span class="p">[</span><span class="mi">1</span><span class="p">:]</span> <span class="o">+</span> <span class="n">bstring</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span>
+    <span class="c1"># Add encrypted character to code string
+</span>    <span class="n">code</span> <span class="o">+=</span> <span class="n">bstring</span> <span class="o">+</span> <span class="s">" "</span>
+<span class="k">print</span><span class="p">(</span><span class="n">code</span><span class="p">)</span>
+</code></pre></div></div>
+:ET

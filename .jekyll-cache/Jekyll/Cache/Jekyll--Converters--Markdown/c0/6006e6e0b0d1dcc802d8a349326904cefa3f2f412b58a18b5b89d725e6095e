@@ -1,0 +1,61 @@
+I"?<h1 id="project-45">Project 4.5</h1>
+
+<h2 id="instruction">Instruction</h2>
+
+<p>A bit shift is a procedure whereby the bits in a bit string are moved to the left or to the right.</p>
+
+<p>For example, we can shift the bits in the string 1011 two places to the left to produce the string 1110. Note that the leftmost two bits are wrapped around to the right side of the string in this operation.</p>
+
+<p>Define two scripts, shiftLeft.py and shiftRight.py, that expect a bit string as an input.</p>
+
+<p>The script shiftLeft shifts the bits in its input one place to the left, wrapping the leftmost bit to the rightmost position.
+The script shiftRight performs the inverse operation.</p>
+
+<p>Each script prints the resulting string.</p>
+
+<p>An example of shiftLeft.py input and output is shown below:</p>
+
+<div class="language-text highlighter-rouge"><div class="highlight"><pre class="highlight"><code>Enter a string of bits: Hello world!
+
+ello world!H
+</code></pre></div></div>
+
+<p>An example of shiftRight.py input and output is shown below:</p>
+
+<div class="language-text highlighter-rouge"><div class="highlight"><pre class="highlight"><code>Enter a string of bits: Hello world!
+
+!Hello world
+</code></pre></div></div>
+
+<h3 id="flowchart">FlowChart</h3>
+
+<h4 id="shift-left">Shift Left</h4>
+
+<p><img src="shiftleft.flowchart.svg" alt="Shift Left" /></p>
+
+<h4 id="shift-right">Shift Right</h4>
+
+<p><img src="shiftright.flowchart.svg" alt="Shift Left" /></p>
+
+<h3 id="starter-code">Starter Code</h3>
+
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="s">"""
+File: shiftleft.py
+Project 4.5
+
+Shifts the bits in an input string one place to the left.
+The leftmost bit wraps around to the rightmost position.
+"""</span>
+
+</code></pre></div></div>
+
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="s">"""
+File: shiftright.py
+Project 4.5
+
+Shifts the bits in an input string one place to the right.
+The rightmost bit wraps around to the leftmost position.
+"""</span>
+
+</code></pre></div></div>
+:ET

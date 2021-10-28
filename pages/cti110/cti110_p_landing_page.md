@@ -12,8 +12,7 @@ folder: cti110
 
 ### Chapter 1
 
-<!-- 
-- [ ][Project 1.1](cti110_prog_2.4_sphere)
+- [ ] Project 1.1
 - [ ] Project 1.2
 - [ ] Project 1.3
 - [ ] Project 1.4
@@ -22,7 +21,7 @@ folder: cti110
 - [ ] Project 1.7
 - [ ] Project 1.8
 - [ ] Project 1.9
-- [ ] Project 1.10 -->
+- [ ] Project 1.10
 
 ### Chapter 2
 
@@ -55,10 +54,10 @@ folder: cti110
 
 - [X] [Project 4.1](prog_4.1_encrypt)
 - [X] [Project 4.2](prog_4.2_decrypt)
-- [X] [Project 4.3](prog_4.3_project_4.3)
-- [ ] Project 4.4
-- [ ] Project 4.5
-- [ ] Project 4.6
+- [X] [Project 4.3](prog_4.3_Readme)
+- [X] [Project 4.4](prog_4.4_Readme)
+- [X] [Project 4.5](prog_4.5_Readme)
+- [X] [Project 4.6](prog_4.6_encrypt)
 - [ ] Project 4.7
 - [ ] Project 4.8
 - [ ] Project 4.9
