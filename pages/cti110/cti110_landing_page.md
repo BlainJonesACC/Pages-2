@@ -1,5 +1,5 @@
 ---
-title: CTI-110 Web Programming & Database
+title: CTI-110 Web Programming and Database
 tags: [programming]
 keywords: notes, tips, cautions, warnings, admonitions
 last_updated: October 23, 2021
@@ -20,3 +20,5 @@ folder: cti110
 ### MindTap Tips
 
 - [MindTap Share Link instruction](cti110_mindtap_landing_page)
+
+{% include links.html %}

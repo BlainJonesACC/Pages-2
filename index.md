@@ -11,3 +11,4 @@ permalink: index.html
 
 ![Under Construction](images/new-content-coming-soon-web-page-is-under.png)
 
+{% include links.html %}

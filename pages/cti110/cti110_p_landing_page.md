@@ -28,7 +28,7 @@ folder: cti110
 - [ ] Project 2.1
 - [ ] Project 2.2
 - [ ] Project 2.3
-- [ ] [Project 2.4](cti110_p_2.4_sphere.md)
+- [ ] [Project 2.4](prog_2.4_sphere)
 - [ ] Project 2.5
 - [ ] Project 2.6
 - [ ] Project 2.7
@@ -103,3 +103,5 @@ Project 1.2
 </tbody>
 </table> 
 -->
+
+{% include links.html %}

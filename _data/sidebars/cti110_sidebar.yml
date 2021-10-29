@@ -25,18 +25,18 @@ entries:
   #     url: /p2_landing_page.html
   #     output: web
 
-  # - title:
-  #   output: pdf
-  #   type: frontmatter
-  #   folderitems:
-  #   - title:
-  #     url: /titlepage.html
-  #     output: pdf
-  #     type: frontmatter
-  #   - title:
-  #     url: /tocpage.html
-  #     output: pdf
-  #     type: frontmatter
+  - title:
+    output: pdf
+    type: frontmatter
+    folderitems:
+    - title:
+      url: /titlepage.html
+      output: pdf
+      type: frontmatter
+    - title:
+      url: /tocpage.html
+      output: pdf
+      type: frontmatter
 
   - title: CTI-110
     output: web, pdf
