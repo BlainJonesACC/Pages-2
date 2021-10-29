@@ -1,4 +1,4 @@
-I"Ó<h2 id="instructions">Instructions</h2>
+I"Í<h2 id="instructions">Instructions</h2>
 
 <p>Write a script that inputs a line of encrypted text and a distance value and outputs plaintext using a Caesar cipher.</p>
 
@@ -16,7 +16,7 @@ Hello world!
 
 <h3 id="flowchart">Flowchart</h3>
 
-<p><img src="../../images/cti110_p_4.2_decrypt.flowchart.svg" alt="decrypt flowchart" /></p>
+<p><img src="images/cti110_p_4.2_decrypt.flowchart.svg" alt="decrypt flowchart" /></p>
 
 <hr />
 
