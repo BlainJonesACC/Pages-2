@@ -38,6 +38,31 @@ entries:
       output: pdf
       type: frontmatter
 
+
+
+  - title: CTI-110
+    url: /cti110_landing_page.html
+    output: web, pdf
+    type: homepage
+    folderitems: 
+
+  - title: MindTap Tips
+    url: /cti110_mindtap_landing_page.html
+    output: web, pdf
+    type: homepage
+    # folderitems: 
+
+  - title: Web
+    url: /cti110_web_landing_page.html
+    output: web, pdf
+    type: homepage
+
+  - title: Programing
+    url: /cti110_prog_landing_page.html
+    output: web, pdf
+    type: homepage
+    # folderitems:
+    
   - title: Chapter 1
     url: /cti110_prog_landing_page.html#chapter-1
     output: web, pdf
@@ -234,34 +259,10 @@ entries:
       url: /prog_4.12_Readme.html
       output: web, pdf
 
-
-  - title: CTI-110
-    url: /cti110_landing_page.html
+  - title: Database
+    url: /cti110_db_landing_page.html
     output: web, pdf
     type: homepage
-    folderitems: 
-
-    - title: MindTap Tips
-      url: /cti110_mindtap_landing_page.html
-      output: web, pdf
-      type: homepage
-      # folderitems: 
-
-    - title: Web
-      url: /cti110_web_landing_page.html
-      output: web, pdf
-      type: homepage
-
-    - title: Programing
-      url: /cti110_prog_landing_page.html
-      output: web, pdf
-      type: homepage
-      # folderitems:
-
-    - title: Database
-      url: /cti110_db_landing_page.html
-      output: web, pdf
-      type: homepage
 
 
   #   - title: Introduction
