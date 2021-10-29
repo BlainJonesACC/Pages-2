@@ -32,7 +32,7 @@ You can email me the share URL of your code with the Share feature and I'll look
 
 <!-- ![Get Share URL](https://blainjonesacc.github.io/Pages/MindTap_Share_URL/MindTap_share-2.png)
 <img src="https://blainjonesacc.github.io/Pages/MindTap_Share_URL/MindTap_share-2.png" width="400px" /> -->
-{% include image.html file="MindTap_share-3.png" url="https://blainjonesacc.github.io/Pages-2" alt="Then click on Get Share URL"  max-width="600" %}
+{% include image.html file="MindTap_share-2.png" url="https://blainjonesacc.github.io/Pages-2" alt="Then click on Get Share URL"  max-width="600" %}
 
 ---
 
