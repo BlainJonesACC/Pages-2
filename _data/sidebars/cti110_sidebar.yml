@@ -4,7 +4,7 @@ entries:
 - title: sidebar
   product: CTI-110
   version: 0.01
-  folders: 
+  folders:
 
   # - title: Classes
   #   output: web
@@ -56,11 +56,94 @@ entries:
       url: /cti110_prog_landing_page.html
       output: web, pdf
       type: homepage
+      folderitems:
 
-    - title: Database
-      url: /cti110_db_landing_page.html
+    - title: Chapter 1
+      url: /cti110_prog_landing_page.html#chapter-1
       output: web, pdf
       type: homepage
+      folderitems:
+
+      - title: Project 4.1
+        url: /prog_4.1_encrypt
+        output: web, pdf
+
+    - title: Chapter 2
+      url: /cti110_prog_landing_page.html#chapter-2
+      output: web, pdf
+      folderitems:
+
+      - title: Project 4.1
+        url: /prog_4.1_encrypt
+        output: web, pdf
+
+    - title: Chapter 3
+      url: /cti110_prog_landing_page.html#chapter-3
+      output: web, pdf
+      folderitems:
+
+      - title: Project 4.1
+        url: /prog_4.1_encrypt
+        output: web, pdf
+
+    - title: Chapter 4
+      url: /cti110_prog_landing_page.html#chapter-4
+      output: web, pdf
+      folderitems:
+
+      - title: Project 4.1
+        url: /prog_4.1_encrypt
+        output: web, pdf
+
+      - title: Project 4.2
+        url: /prog_4.2_decrypt
+        output: web, pdf
+
+      - title: Project 4.3
+        url: /prog_4.3_Readme
+        output: web, pdf
+
+      - title: Project 4.4
+        url: /prog_4.4_Readme
+        output: web, pdf
+
+      - title: Project 4.5
+        url: /prog_4.5_Readme
+        output: web, pdf
+
+      - title: Project 4.6
+        url: /prog_4.6_encrypt
+        output: web, pdf
+
+      - title: Project 4.7
+        url: /prog_4.7_Readme
+        output: web, pdf
+
+      - title: Project 4.8
+        url: /prog_4.8_Readme
+        output: web, pdf
+
+      - title: Project 4.9
+        url: /prog_4.9_Readme
+        output: web, pdf
+
+      - title: Project 4.10
+        url: /prog_4.10_Readme
+        output: web, pdf
+
+      - title: Project 4.11
+        url: /prog_4.11_textanalysis
+        output: web, pdf
+
+      - title: Project 4.12
+        url: /prog_4.12_payroll
+        output: web, pdf
+
+
+      - title: Database
+        url: /cti110_db_landing_page.html
+        output: web, pdf
+        type: homepage
 
 
   #   - title: Introduction
