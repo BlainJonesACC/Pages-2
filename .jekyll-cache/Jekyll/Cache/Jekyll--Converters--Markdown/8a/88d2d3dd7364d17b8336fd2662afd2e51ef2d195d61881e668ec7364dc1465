@@ -1,18 +1,18 @@
-I"<h2 id="instructions-and-flowcharts">Instructions and Flowcharts</h2>
+I"<h2 id="instructions-and-flowcharts">Instructions and Flowcharts</h2>
 
 <h3 id="chapter-1">Chapter 1</h3>
 
 <ul class="task-list">
-  <li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" disabled="disabled" />Project 1.1</li>
-  <li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" disabled="disabled" />Project 1.2</li>
-  <li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" disabled="disabled" />Project 1.3</li>
-  <li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" disabled="disabled" />Project 1.4</li>
-  <li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" disabled="disabled" />Project 1.5</li>
-  <li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" disabled="disabled" />Project 1.6</li>
-  <li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" disabled="disabled" />Project 1.7</li>
+  <li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" disabled="disabled" /><a href="cti110_p_1.1_Readme">Project 1.1</a></li>
+  <li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" disabled="disabled" /><a href="cti110_p_1.2_Readme">Project 1.2</a></li>
+  <li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" disabled="disabled" /><a href="cti110_p_1.3_Readme">Project 1.3</a></li>
+  <li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" disabled="disabled" /><a href="cti110_p_1.4_Readme">Project 1.4</a></li>
+  <li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" disabled="disabled" /><a href="cti110_p_1.5_Readme">Project 1.5</a></li>
+  <li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" disabled="disabled" /><a href="cti110_p_1.6_Readme">Project 1.6</a></li>
+  <li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" disabled="disabled" /><a href="cti110_p_1.7_Readme">Project 1.7</a></li>
 </ul>
 
-<!-- - [ ] Project 1.8
+<!-- - [ ] [Project 1.8](cti110_p_1.8_Readme)
 - [ ] Project 1.9
 - [ ] Project 1.10 -->
 
@@ -22,7 +22,7 @@
   <li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" disabled="disabled" />Project 2.1</li>
   <li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" disabled="disabled" />Project 2.2</li>
   <li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" disabled="disabled" />Project 2.3</li>
-  <li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" disabled="disabled" /><a href="prog_2.4_sphere">Project 2.4</a></li>
+  <li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" disabled="disabled" /><a href="prog_2.4_Readme">Project 2.4</a></li>
   <li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" disabled="disabled" />Project 2.5</li>
   <li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" disabled="disabled" />Project 2.6</li>
   <li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" disabled="disabled" />Project 2.7</li>

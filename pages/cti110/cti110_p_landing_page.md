@@ -12,30 +12,30 @@ folder: cti110
 
 ### Chapter 1
 
-- [ ] Project 1.1
-- [ ] Project 1.2
-- [ ] Project 1.3
-- [ ] Project 1.4
-- [ ] Project 1.5
-- [ ] Project 1.6
-- [ ] Project 1.7
+- [ ] [Project 1.1](prog_1.1_Readme)
+- [ ] [Project 1.2](prog_1.2_Readme)
+- [ ] [Project 1.3](prog_1.3_Readme)
+- [ ] [Project 1.4](prog_1.4_Readme)
+- [ ] [Project 1.5](prog_1.5_Readme)
+- [ ] [Project 1.6](prog_1.6_Readme)
+- [ ] [Project 1.7](prog_1.7_Readme)
 
-<!-- - [ ] Project 1.8
-- [ ] Project 1.9
-- [ ] Project 1.10 -->
+<!-- - [ ] [Project 1.8](prog_1.8_Readme)
+- [ ] [Project 1.9](prog_1.9_Readme)
+- [ ] [Project 1.10](prog_1.10_Readme) -->
 
 ### Chapter 2
 
-- [ ] Project 2.1
-- [ ] Project 2.2
-- [ ] Project 2.3
-- [ ] [Project 2.4](prog_2.4_sphere)
-- [ ] Project 2.5
-- [ ] Project 2.6
-- [ ] Project 2.7
-- [ ] Project 2.8
-- [ ] Project 2.9
-- [ ] Project 2.10
+- [ ] [Project 2.1](prog_2.1_Readme)
+- [ ] [Project 2.2](prog_2.2_Readme)
+- [ ] [Project 2.3](prog_2.3_Readme)
+- [ ] [Project 2.4](prog_2.4_Readme)
+- [ ] [Project 2.5](prog_2.5_Readme)
+- [ ] [Project 2.6](prog_2.6_Readme)
+- [ ] [Project 2.7](prog_2.7_Readme)
+- [ ] [Project 2.8](prog_2.8_Readme)
+- [ ] [Project 2.9](prog_2.9_Readme)
+- [ ] [Project 2.10](prog_2.10_Readme)
 
 ### Chapter 3
 
@@ -85,14 +85,14 @@ folder: cti110
 
 Project 1.2
 
- Project 1.3
- Project 1.4
- Project 1.5
- Project 1.6
- Project 1.7
- Project 1.8
- Project 1.9
- Project 1.10
+ [Project 1.3](prog_1.3_Readme)
+ [Project 1.4](prog_1.4_Readme)
+ [Project 1.5](prog_1.5_Readme)
+ [Project 1.6](prog_1.6_Readme)
+ [Project 1.7](prog_1.7_Readme)
+ [Project 1.8](prog_1.8_Readme)
+ [Project 1.9](prog_1.9_Readme)
+ [Project 1.10](prog_1.10_Readme)
 </td>
 <td markdown="span">Some descriptive text. This is a markdown link to [Google](http://google.com). Or see [some link][mydoc_tags].</td>
 </tr>
