@@ -1,0 +1,34 @@
+I"œ<p><img src="../../images/new-content-coming-soon-web-page-is-under.png" alt="under construction" /></p>
+
+<h2 id="instructions">Instructions</h2>
+
+<h3 id="flowchart">Flowchart</h3>
+
+<p><img src="images/cti110_p_2.9_klickstonauts.flowchart.svg" alt="Klickstonauts Flowchart" /></p>
+
+<h3 id="starter-code">Starter Code</h3>
+
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="s">"""
+Program: klickstonauts.py
+Project 2.9
+
+Convert kilometers to nautical miles.
+
+Useful facts:
+   1 kilometer = 1/10000 of the distance between the North Pole and the Equator
+   there are 90 degrees between the North Pole and the Equator
+   1 degree = 60 minutes of arc
+   1 nautical mile = 1 minute of arc
+
+
+"""</span>
+
+<span class="c1"># Request the input
+</span>
+<span class="c1"># Compute the result
+</span>
+<span class="c1"># Display the result
+</span>
+</code></pre></div></div>
+
+:ET

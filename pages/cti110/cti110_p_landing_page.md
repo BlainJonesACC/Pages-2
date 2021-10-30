@@ -19,9 +19,10 @@ folder: cti110
 - [ ] Project 1.5
 - [ ] Project 1.6
 - [ ] Project 1.7
-- [ ] Project 1.8
+
+<!-- - [ ] Project 1.8
 - [ ] Project 1.9
-- [ ] Project 1.10
+- [ ] Project 1.10 -->
 
 ### Chapter 2
 

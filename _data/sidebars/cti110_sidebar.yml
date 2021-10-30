@@ -97,17 +97,17 @@ entries:
       url: /prog_1.7_Readme.html
       output: web, pdf
 
-    - title: Project 1.8
-      url: /prog_1.8_Readme.html
-      output: web, pdf
+    # - title: Project 1.8
+    #   url: /prog_1.8_Readme.html
+    #   output: web, pdf
 
-    - title: Project 1.9
-      url: /prog_1.9_Readme.html
-      output: web, pdf
+    # - title: Project 1.9
+    #   url: /prog_1.9_Readme.html
+    #   output: web, pdf
 
-    - title: Project 1.10
-      url: /prog_1.10_Readme.html
-      output: web, pdf
+    # - title: Project 1.10
+    #   url: /prog_1.10_Readme.html
+    #   output: web, pdf
 
   - title: Chapter 2
     url: /cti110_prog_landing_page.html#chapter-2
