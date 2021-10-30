@@ -1,4 +1,4 @@
-I"-<h2 id="instructions">Instructions</h2>
+I"Z<h2 id="instructions">Instructions</h2>
 
 <p>The Payroll Department keeps a list of employee information for each pay period in a text file. The format of each line of the file is the following: 
 <strong>&lt;last name&gt; &lt;hours worked&gt; &lt;hourly wage&gt;</strong></p>
@@ -37,8 +37,11 @@ Giacometti          5         503.50
 
 <p><img src="images/cti110_p_4.12_payroll.flow.svg" style="width: 650px;" /></p>
 
-<!-- <figure><a class="no_icon" target="_blank" rel="noopener" href="/cti110/pages/"><img class="docimage" src="images/cti110_Prog_4.12_payroll.flow.svg" alt="payroll flowchart" style="max-width: 600px" /></a><figcaption>payroll flowchart</figcaption></figure>
- -->
+<!-- <figure><a class="no_icon" target="_blank" rel="noopener" href="/cti110/pages/"><img
+            class="docimage" src="images/cti110_Prog_4.12_payroll.flow.svg" alt="payroll flowchart"
+            style="max-width: 600px"
+             /></a><figcaption>
+        payroll flowchart</figcaption></figure> -->
 
 <hr />
 

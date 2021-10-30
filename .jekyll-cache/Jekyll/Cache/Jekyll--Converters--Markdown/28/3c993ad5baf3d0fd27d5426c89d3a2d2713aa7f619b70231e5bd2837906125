@@ -1,4 +1,4 @@
-I"¬<h2 id="about-iterm-profiles">About iTerm profiles</h2>
+I"µ<h2 id="about-iterm-profiles">About iTerm profiles</h2>
 
 <p>When youâ€™re working with tech docs, a lot of times you have builds that push files onto different servers, or that build the content for different environments. It can be a hassle to type out these commands each time. Instead, itâ€™s easier to configure iTerm with profiles that initiate the scripts.</p>
 
@@ -22,7 +22,8 @@
 
 <p>Hereâ€™s an example:</p>
 
-<figure><img class="docimage" src="images/itermexample.png" alt="" /><figcaption>iTerm profile example</figcaption></figure>
+<figure><img class="docimage" src="images/itermexample.png" alt="" /><figcaption>
+        iTerm profile example</figcaption></figure>
 
 <h2 id="launching-a-profile">Launching a profile</h2>
 

@@ -1,4 +1,4 @@
-I"V<h2 id="how-to-build-jekyll-sites">How to build Jekyll sites</h2>
+I"_<h2 id="how-to-build-jekyll-sites">How to build Jekyll sites</h2>
 
 <p>The normal way to build the Jekyll site is through the build command:</p>
 
@@ -46,6 +46,7 @@
 
 <p>I recommend creating a profile in iTerm that stores this command. Here’s what the iTerm settings look like:</p>
 
-<figure><img class="docimage" src="images/killalljekyll.png" alt="" /><figcaption>iTerm profile settings to kill all Jekyll</figcaption></figure>
+<figure><img class="docimage" src="images/killalljekyll.png" alt="" /><figcaption>
+        iTerm profile settings to kill all Jekyll</figcaption></figure>
 
 :ET
