@@ -10,6 +10,11 @@ folder: cti110
 ---
 ## Instructions and Flowcharts
 
+Use side bar navigation to locate project pages or use search above box above.
+
+{% include image.html file="new-content-coming-soon-web-page-is-under.png" alt="Under construction" caption="Work in progress" max-width="600" %}
+
+<!-- 
 ### Chapter 1
 
 - [ ] [Project 1.1](prog_1.1_Readme)
@@ -19,10 +24,9 @@ folder: cti110
 - [ ] [Project 1.5](prog_1.5_Readme)
 - [ ] [Project 1.6](prog_1.6_Readme)
 - [ ] [Project 1.7](prog_1.7_Readme)
-
-<!-- - [ ] [Project 1.8](prog_1.8_Readme)
+- [ ] [Project 1.8](prog_1.8_Readme)
 - [ ] [Project 1.9](prog_1.9_Readme)
-- [ ] [Project 1.10](prog_1.10_Readme) -->
+- [ ] [Project 1.10](prog_1.10_Readme) 
 
 ### Chapter 2
 
@@ -66,7 +70,6 @@ folder: cti110
 - [X] [Project 4.11](prog_4.11_textanalysis)
 - [X] [Project 4.12](prog_4.12_payroll)
 
-<!-- 
 <table>
 <colgroup>
 <col width="30%" />
