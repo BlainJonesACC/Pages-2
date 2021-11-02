@@ -1,0 +1,52 @@
+I"�<!-- <figure><img
+            class="docimage" src="images/new-content-coming-soon-web-page-is-under.png" alt="Under construction"
+            style="max-width: 300px"
+             /><figcaption>
+        Work in progress</figcaption></figure>
+ -->
+
+<h2 id="instructions">Instructions</h2>
+
+<p>Light travels at 3 × 108 meters per second. A light-year is the distance a light beam travels in one year.</p>
+
+<p>Write a program that calculates and displays the value of a light-year.</p>
+
+<p>Useful facts:</p>
+
+<ul>
+  <li>Seconds in a year = 365×24×60<sup>2</sup></li>
+  <li>Rate = 3×10<sup>8</sup> meters per second</li>
+</ul>
+
+<p>Below is an example of the correct output format:</p>
+
+<div class="language-text highlighter-rouge"><div class="highlight"><pre class="highlight"><code>Light travels X meters in a year.
+</code></pre></div></div>
+
+<h3 id="flowchart">Flowchart</h3>
+
+<p>To enlarge flowchart turn side navigation off, Click on <img class="inline" src="images/Nav_on.png" alt="Side Navigation button on" />
+ in the top navigation bar to change to <img class="inline" src="images/Nav_off.png" alt="Side Navigation button off" /></p>
+
+<p><img src="images/cti110_p_2.8_lightyear.flowchart.svg" alt="light-year flowchart" /></p>
+
+<h3 id="starter-code">Starter Code</h3>
+
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="s">"""
+Program: lightyear.py
+Project 2.8
+
+Compute the distance that light travels in a year.
+
+Useful facts:
+   rate = 3 * 10 ** 8 meters per second
+   seconds in a year = 365 * 24 * 60 ** 2
+
+"""</span>
+
+<span class="c1"># Compute the result
+</span>
+<span class="c1"># Display the result
+</span></code></pre></div></div>
+
+:ET
