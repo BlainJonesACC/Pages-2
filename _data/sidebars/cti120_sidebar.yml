@@ -1,0 +1,71 @@
+# This is your sidebar TOC. The sidebar code loops through sections here and provides the appropriate formatting.
+
+entries:
+- title: sidebar
+  product: CTI-120
+  version: 1.0
+  folders:
+
+  - title:
+    output: pdf
+    type: frontmatter
+    folderitems:
+    - title:
+      url: /titlepage.html
+      output: pdf
+      type: frontmatter
+    - title:
+      url: /tocpage.html
+      output: pdf
+      type: frontmatter
+
+  - title: Classes
+    output: web, pdf
+    folderitems:
+    # - title: News
+    #   url: /news.html
+    #   output: web, pdf
+
+    # - title: CIS-110
+    #   url: /cis110_landing_page.html
+    #   output: web, pdf
+
+    # - title: CTI-120
+    #   url: /cti110_landing_page.html
+    #   output: web, pdf
+
+    # - title: CTI-120
+    #   url: /cti120_landing_page.html
+    #   output: web, pdf
+
+    # - title: CTS-289
+    #   url: /cts289_landing_page.html
+    #   output: web, pdf
+
+    # - title: NOS_130
+    #   url: /nos130_landing_page.html
+    #   output: web, pdf
+
+    # - title: NOS_230
+    #   url: /nos230_landing_page.html
+    #   output: web, pdf
+
+    # - title: Supported features
+    #   url: /mydoc_supported_features.html
+    #   output: web, pdf
+
+    # - title: About the theme author
+    #   url: /mydoc_about.html
+    #   output: web, pdf
+
+    - title: Support
+      url: /wdoc_support.html
+      output: web, pdf
+
+
+  - title: CTI-120
+    url: /cti110_landing_page.html
+    output: web, pdf
+    type: homepage
+    folderitems:
+

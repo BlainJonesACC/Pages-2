@@ -1,6 +1,6 @@
 ---
 title: CTI-110 Web Programming and Database
-tags: [programming]
+# tags: [programming]
 keywords: notes, tips, cautions, warnings, admonitions
 last_updated: October 23, 2021
 # summary: "You can insert notes, tips, warnings, and important alerts in your content. These notes are stored as shortcodes made available through the linksrefs.hmtl include."
