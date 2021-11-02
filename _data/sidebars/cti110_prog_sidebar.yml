@@ -3,27 +3,34 @@
 entries:
 - title: sidebar
   product: CTI-110-Programming
-  version: 0.01
+  version: 1.0
+  url: /cti110_landing_page.html
   folders:
 
-  # - title: Classes
-  #   output: web
-  #   folderitems:
-  #   - title: News
-  #     url: /news.html
-  #     output: web
-  #   - title: CTI-110
-  #     url: /cti110_landing_page.html
-  #     output: web
-  #   - title: CTI-120
-  #     url: /p1_landing_page.html
-  #     output: web
-  #   - title: NOS_130
-  #     url: /p2_landing_page.html
-  #     output: web
-  #   - title: NOS_230
-  #     url: /p2_landing_page.html
-  #     output: web
+  - title: Classes
+    output: web
+    folderitems:
+    # - title: News
+      # url: /news.html
+      # output: web
+    - title: CIS-110
+      url: /cis110_landing_page.html
+      output: web
+    - title: CTI-110
+      url: /cti110_landing_page.html
+      output: web
+    - title: CTI-120
+      url: /cti120_landing_page.html
+      output: web
+    - title: CTS-289
+      url: /cts289_landing_page.html
+      output: web
+    - title: NOS_130
+      url: /nos130_landing_page.html
+      output: web
+    - title: NOS_230
+      url: /nos230_landing_page.html
+      output: web
 
   - title:
     output: pdf
@@ -39,30 +46,40 @@ entries:
       type: frontmatter
 
 
-
   - title: CTI-110
     url: /cti110_landing_page.html
     output: web, pdf
-    type: homepage
-    folderitems: 
+    # type: homepage
+    folderitems:
 
-  - title: MindTap Tips
-    url: /cti110_mindtap_landing_page.html
-    output: web, pdf
-    type: homepage
-    # folderitems: 
+    - title: MindTap Tips
+      url: /cti110_mindtap_landing_page.html
+      output: web, pdf
+      # type: homepage
+      # folderitems:
 
-  - title: Web
-    url: /cti110_web_landing_page.html
-    output: web, pdf
-    type: homepage
+    - title: Web
+      url: /cti110_web_landing_page.html
+      output: web, pdf
+      # type: homepage
+
+    - title: Database
+      url: /cti110_db_landing_page.html
+      output: web, pdf
+      type: homepage
+
+    # - title: Programing
+    #   url: /cti110_prog_landing_page.html
+    #   output: web, pdf
+    #   # type: homepage
+    #   # folderitems:
 
   - title: Programing
     url: /cti110_prog_landing_page.html
     output: web, pdf
-    type: homepage
+    # type: homepage
     # folderitems:
-    
+
   - title: Chapter 1
     url: /cti110_prog_landing_page.html#chapter-1
     output: web, pdf
@@ -258,12 +275,6 @@ entries:
     - title: Project 4.12
       url: /prog_4.12_Readme.html
       output: web, pdf
-
-  - title: Database
-    url: /cti110_db_landing_page.html
-    output: web, pdf
-    type: homepage
-
 
   #   - title: Introduction
   #     url: /mydoc_introduction.html

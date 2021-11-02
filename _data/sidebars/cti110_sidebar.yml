@@ -3,27 +3,8 @@
 entries:
 - title: sidebar
   product: CTI-110
-  version: 0.01
+  version: 1.0
   folders:
-
-  # - title: Classes
-  #   output: web
-  #   folderitems:
-  #   - title: News
-  #     url: /news.html
-  #     output: web
-  #   - title: CTI-110
-  #     url: /cti110_landing_page.html
-  #     output: web
-  #   - title: CTI-120
-  #     url: /p1_landing_page.html
-  #     output: web
-  #   - title: NOS_130
-  #     url: /p2_landing_page.html
-  #     output: web
-  #   - title: NOS_230
-  #     url: /p2_landing_page.html
-  #     output: web
 
   - title:
     output: pdf
@@ -38,232 +19,273 @@ entries:
       output: pdf
       type: frontmatter
 
+  - title: Classes
+    output: web, pdf
+    folderitems:
+    # - title: News
+    #   url: /news.html
+    #   output: web, pdf
+
+    # - title: CIS-110
+    #   url: /cis110_landing_page.html
+    #   output: web, pdf
+
+    # - title: CTI-110
+    #   url: /cti110_landing_page.html
+    #   output: web, pdf
+
+    # - title: CTI-120
+    #   url: /cti120_landing_page.html
+    #   output: web, pdf
+
+    # - title: CTS-289
+    #   url: /cts289_landing_page.html
+    #   output: web, pdf
+
+    # - title: NOS_130
+    #   url: /nos130_landing_page.html
+    #   output: web, pdf
+
+    # - title: NOS_230
+    #   url: /nos230_landing_page.html
+    #   output: web, pdf
+
+    # - title: Supported features
+    #   url: /mydoc_supported_features.html
+    #   output: web, pdf
+
+    # - title: About the theme author
+    #   url: /mydoc_about.html
+    #   output: web, pdf
+
+    - title: Support
+      url: /bwdoc_support.html
+      output: web, pdf
 
 
   - title: CTI-110
     url: /cti110_landing_page.html
     output: web, pdf
     type: homepage
-    # folderitems: 
-
-  - title: MindTap Tips
-    url: /cti110_mindtap_landing_page.html
-    output: web, pdf
-    type: homepage
-    # folderitems: 
-
-  - title: Web
-    url: /cti110_web_landing_page.html
-    output: web, pdf
-    type: homepage
-
-  - title: Programing
-    url: /cti110_prog_landing_page.html
-    output: web, pdf
-    type: homepage
-    # folderitems:
-    
-  - title: Chapter 1
-    url: /cti110_prog_landing_page.html#chapter-1
-    output: web, pdf
-    type: homepage
     folderitems:
 
-    - title: Project 1.1
-      url: /prog_1.1_Readme.html
+    - title: MindTap Tips
+      url: /cti110_mindtap_landing_page.html
       output: web, pdf
+      type: homepage
+      # folderitems: 
 
-    - title: Project 1.2
-      url: /prog_1.2_Readme.html
+    - title: Web
+      url: /cti110_web_landing_page.html
       output: web, pdf
+      type: homepage
 
-    - title: Project 1.3
-      url: /prog_1.3_Readme.html
+    - title: Programing
+      url: /cti110_prog_landing_page.html
       output: web, pdf
+      type: homepage
+      # folderitems:
 
-    - title: Project 1.4
-      url: /prog_1.4_Readme.html
+    - title: Database
+      url: /cti110_db_landing_page.html
       output: web, pdf
+      type: homepage
 
-    - title: Project 1.5
-      url: /prog_1.5_Readme.html
-      output: web, pdf
+  # - title: Chapter 1
+  #   url: /cti110_prog_landing_page.html#chapter-1
+  #   output: web, pdf
+  #   type: homepage
+  #   folderitems:
 
-    - title: Project 1.6
-      url: /prog_1.6_Readme.html
-      output: web, pdf
+  #   - title: Project 1.1
+  #     url: /prog_1.1_Readme.html
+  #     output: web, pdf
 
-    - title: Project 1.7
-      url: /prog_1.7_Readme.html
-      output: web, pdf
+  #   - title: Project 1.2
+  #     url: /prog_1.2_Readme.html
+  #     output: web, pdf
 
-    # - title: Project 1.8
-    #   url: /prog_1.8_Readme.html
-    #   output: web, pdf
+  #   - title: Project 1.3
+  #     url: /prog_1.3_Readme.html
+  #     output: web, pdf
 
-    # - title: Project 1.9
-    #   url: /prog_1.9_Readme.html
-    #   output: web, pdf
+  #   - title: Project 1.4
+  #     url: /prog_1.4_Readme.html
+  #     output: web, pdf
 
-    # - title: Project 1.10
-    #   url: /prog_1.10_Readme.html
-    #   output: web, pdf
+  #   - title: Project 1.5
+  #     url: /prog_1.5_Readme.html
+  #     output: web, pdf
 
-  - title: Chapter 2
-    url: /cti110_prog_landing_page.html#chapter-2
-    output: web, pdf
-    type: homepage
-    folderitems:
+  #   - title: Project 1.6
+  #     url: /prog_1.6_Readme.html
+  #     output: web, pdf
 
-    - title: Project 2.1
-      url: /prog_2.1_Readme.html
-      output: web, pdf
+  #   - title: Project 1.7
+  #     url: /prog_1.7_Readme.html
+  #     output: web, pdf
 
-    - title: Project 2.2
-      url: /prog_2.2_Readme.html
-      output: web, pdf
+  #   # - title: Project 1.8
+  #   #   url: /prog_1.8_Readme.html
+  #   #   output: web, pdf
 
-    - title: Project 2.3
-      url: /prog_2.3_Readme.html
-      output: web, pdf
+  #   # - title: Project 1.9
+  #   #   url: /prog_1.9_Readme.html
+  #   #   output: web, pdf
 
-    - title: Project 2.4
-      url: /prog_2.4_Readme.html
-      output: web, pdf
+  #   # - title: Project 1.10
+  #   #   url: /prog_1.10_Readme.html
+  #   #   output: web, pdf
 
-    - title: Project 2.5
-      url: /prog_2.5_Readme.html
-      output: web, pdf
+  # - title: Chapter 2
+  #   url: /cti110_prog_landing_page.html#chapter-2
+  #   output: web, pdf
+  #   type: homepage
+  #   folderitems:
 
-    - title: Project 2.6
-      url: /prog_2.6_Readme.html
-      output: web, pdf
+  #   - title: Project 2.1
+  #     url: /prog_2.1_Readme.html
+  #     output: web, pdf
 
-    - title: Project 2.7
-      url: /prog_2.7_Readme.html
-      output: web, pdf
+  #   - title: Project 2.2
+  #     url: /prog_2.2_Readme.html
+  #     output: web, pdf
 
-    - title: Project 2.8
-      url: /prog_2.8_Readme.html
-      output: web, pdf
+  #   - title: Project 2.3
+  #     url: /prog_2.3_Readme.html
+  #     output: web, pdf
 
-    - title: Project 2.9
-      url: /prog_2.9_Readme.html
-      output: web, pdf
+  #   - title: Project 2.4
+  #     url: /prog_2.4_Readme.html
+  #     output: web, pdf
 
-    - title: Project 2.10
-      url: /prog_2.10_Readme.html
-      output: web, pdf
+  #   - title: Project 2.5
+  #     url: /prog_2.5_Readme.html
+  #     output: web, pdf
 
-  - title: Chapter 3
-    url: /cti110_prog_landing_page.html#chapter-3
-    output: web, pdf
-    type: homepage
-    folderitems:
+  #   - title: Project 2.6
+  #     url: /prog_2.6_Readme.html
+  #     output: web, pdf
 
-    - title: Project 3.1
-      url: /prog_3.1_Readme.html
-      output: web, pdf
+  #   - title: Project 2.7
+  #     url: /prog_2.7_Readme.html
+  #     output: web, pdf
 
-    - title: Project 3.2
-      url: /prog_3.2_Readme.html
-      output: web, pdf
+  #   - title: Project 2.8
+  #     url: /prog_2.8_Readme.html
+  #     output: web, pdf
 
-    - title: Project 3.3
-      url: /prog_3.3_Readme.html
-      output: web, pdf
+  #   - title: Project 2.9
+  #     url: /prog_2.9_Readme.html
+  #     output: web, pdf
 
-    - title: Project 3.4
-      url: /prog_3.4_Readme.html
-      output: web, pdf
+  #   - title: Project 2.10
+  #     url: /prog_2.10_Readme.html
+  #     output: web, pdf
 
-    - title: Project 3.5
-      url: /prog_3.5_Readme.html
-      output: web, pdf
+  # - title: Chapter 3
+  #   url: /cti110_prog_landing_page.html#chapter-3
+  #   output: web, pdf
+  #   type: homepage
+  #   folderitems:
 
-    - title: Project 3.6
-      url: /prog_3.6_Readme.html
-      output: web, pdf
+  #   - title: Project 3.1
+  #     url: /prog_3.1_Readme.html
+  #     output: web, pdf
 
-    - title: Project 3.7
-      url: /prog_3.7_Readme.html
-      output: web, pdf
+  #   - title: Project 3.2
+  #     url: /prog_3.2_Readme.html
+  #     output: web, pdf
 
-    - title: Project 3.8
-      url: /prog_3.8_Readme.html
-      output: web, pdf
+  #   - title: Project 3.3
+  #     url: /prog_3.3_Readme.html
+  #     output: web, pdf
 
-    - title: Project 3.9
-      url: /prog_3.8_Readme.html
-      output: web, pdf
+  #   - title: Project 3.4
+  #     url: /prog_3.4_Readme.html
+  #     output: web, pdf
 
-    - title: Project 3.10
-      url: /prog_3.10_Readme.html
-      output: web, pdf
+  #   - title: Project 3.5
+  #     url: /prog_3.5_Readme.html
+  #     output: web, pdf
 
-    - title: Project 3.11
-      url: /prog_3.11_Readme.html
-      output: web, pdf
+  #   - title: Project 3.6
+  #     url: /prog_3.6_Readme.html
+  #     output: web, pdf
 
-  - title: Chapter 4
-    url: /cti110_prog_landing_page.html#chapter-4
-    output: web, pdf
-    type: homepage
-    folderitems:
+  #   - title: Project 3.7
+  #     url: /prog_3.7_Readme.html
+  #     output: web, pdf
 
-    - title: Project 4.1
-      url: /prog_4.1_Readme.html
-      output: web, pdf
+  #   - title: Project 3.8
+  #     url: /prog_3.8_Readme.html
+  #     output: web, pdf
 
-    - title: Project 4.2
-      url: /prog_4.2_Readme.html
-      output: web, pdf
+  #   - title: Project 3.9
+  #     url: /prog_3.8_Readme.html
+  #     output: web, pdf
 
-    - title: Project 4.3
-      url: /prog_4.3_Readme.html
-      output: web, pdf
+  #   - title: Project 3.10
+  #     url: /prog_3.10_Readme.html
+  #     output: web, pdf
 
-    - title: Project 4.4
-      url: /prog_4.4_Readme.html
-      output: web, pdf
+  #   - title: Project 3.11
+  #     url: /prog_3.11_Readme.html
+  #     output: web, pdf
 
-    - title: Project 4.5
-      url: /prog_4.5_Readme.html
-      output: web, pdf
+  # - title: Chapter 4
+  #   url: /cti110_prog_landing_page.html#chapter-4
+  #   output: web, pdf
+  #   type: homepage
+  #   folderitems:
 
-    - title: Project 4.6
-      url: /prog_4.6_Readme.html
-      output: web, pdf
+  #   - title: Project 4.1
+  #     url: /prog_4.1_Readme.html
+  #     output: web, pdf
 
-    - title: Project 4.7
-      url: /prog_4.7_Readme.html
-      output: web, pdf
+  #   - title: Project 4.2
+  #     url: /prog_4.2_Readme.html
+  #     output: web, pdf
 
-    - title: Project 4.8
-      url: /prog_4.8_Readme.html
-      output: web, pdf
+  #   - title: Project 4.3
+  #     url: /prog_4.3_Readme.html
+  #     output: web, pdf
 
-    - title: Project 4.9
-      url: /prog_4.9_Readme.html
-      output: web, pdf
+  #   - title: Project 4.4
+  #     url: /prog_4.4_Readme.html
+  #     output: web, pdf
 
-    - title: Project 4.10
-      url: /prog_4.10_Readme.html
-      output: web, pdf
+  #   - title: Project 4.5
+  #     url: /prog_4.5_Readme.html
+  #     output: web, pdf
 
-    - title: Project 4.11
-      url: /prog_4.11_Readme.html
-      output: web, pdf
+  #   - title: Project 4.6
+  #     url: /prog_4.6_Readme.html
+  #     output: web, pdf
 
-    - title: Project 4.12
-      url: /prog_4.12_Readme.html
-      output: web, pdf
+  #   - title: Project 4.7
+  #     url: /prog_4.7_Readme.html
+  #     output: web, pdf
 
-  - title: Database
-    url: /cti110_db_landing_page.html
-    output: web, pdf
-    type: homepage
+  #   - title: Project 4.8
+  #     url: /prog_4.8_Readme.html
+  #     output: web, pdf
 
+  #   - title: Project 4.9
+  #     url: /prog_4.9_Readme.html
+  #     output: web, pdf
+
+  #   - title: Project 4.10
+  #     url: /prog_4.10_Readme.html
+  #     output: web, pdf
+
+  #   - title: Project 4.11
+  #     url: /prog_4.11_Readme.html
+  #     output: web, pdf
+
+  #   - title: Project 4.12
+  #     url: /prog_4.12_Readme.html
+  #     output: web, pdf
 
   #   - title: Introduction
   #     url: /mydoc_introduction.html
