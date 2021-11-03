@@ -10,7 +10,7 @@ folder: cti110
 ---
 ## Instructions and Flowcharts
 
-Use side bar navigation to locate project pages or use search above box above.
+Use side bar navigation to locate project pages or use search box above.
 
 {% include image.html file="new-content-coming-soon-web-page-is-under.png" alt="Under construction" caption="Work in progress" max-width="600" %}
 

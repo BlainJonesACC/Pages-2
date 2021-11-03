@@ -27,10 +27,20 @@ entries:
     # type: homepage
     folderitems:
 
+    - title: Getting Started
+      url: /cti110_landing_page.html
+      output: web, pdf
+      type: homepage
+
+    - title: Programing
+      url: /cti110_prog_landing_page.html
+      output: web, pdf
+      type: homepage
+
     - title: Web
       url: /cti110_web_landing_page.html
       output: web, pdf
-      # type: homepage
+      type: homepage
 
     - title: Database
       url: /cti110_db_landing_page.html
@@ -40,14 +50,7 @@ entries:
     - title: MindTap Tips
       url: /cti110_mindtap_landing_page.html
       output: web, pdf
-      # type: homepage
-      # folderitems:
-
-# - title: Programing
-    #   url: /cti110_prog_landing_page.html
-    #   output: web, pdf
-    #   # type: homepage
-    #   # folderitems:
+      type: homepage
 
   - title: Programing
     url: /cti110_prog_landing_page.html
