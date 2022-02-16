@@ -8,8 +8,6 @@ sidebar: bwdoc_sidebar
 permalink: Email_Etiquette_for_Students.html
 folder: ACC
 ---
-# Email Etiquette for Students
-
 ## WHAT IS EMAIL ETIQUETTE?
 - Think of it as the '**Code of Conduct**' for email communications.
 - It refers to the principles of behavior that individuals should use when writing and answering emails.
