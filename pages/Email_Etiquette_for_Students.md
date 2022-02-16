@@ -1,3 +1,13 @@
+---
+title: Email Etiquette for Students
+tags: 
+keywords: notes, tips, cautions, warnings, admonitions
+last_updated: February 15, 2022
+# summary: "You can insert notes, tips, warnings, and important alerts in your content. These notes are stored as shortcodes made available through the linksrefs.hmtl include."
+sidebar: bwdoc_sidebar
+permalink: Email_Etiquette_for_Students.html
+folder: ACC
+---
 # Email Etiquette for Students
 
 ## WHAT IS EMAIL ETIQUETTE?
