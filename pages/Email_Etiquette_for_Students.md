@@ -18,18 +18,19 @@ folder: ACC
 - You want your message to be understood in a positive manner as well as taken seriously.
 - The written word can be easily misinterpreted resulting in the recipient holding a negative opinion or simply ignoring your email altogether.
 
-## UNDERSTANDING PARTS OF AN EMAIL:
-- **TO**: type in the email address of the individual the message is intended for.
-- **CC (Carbon Copy)**: Use this to add individuals who need a copy of the email. The original receiver of the email will see this person added.
-- **BCC (Blind Carbon Copy)**: Use this when you want another individual to get a copy of the email and only they know they get a copy. The Blind means the original receiver does not know anyone else is getting a copy.
-- **SUBJECT**: Input a clear subject line. Keep is short & simple, but not vague. Include your name, class, & what the email is specifically regarding in the subject.
-- **BODY OF THE EMAIL**: Include a greeting like you would a letter, try to keep emails brief (one screen length), use complete sentences, double check spelling/grammar/ punctuation, use professional font (not decorative), & give a proper salutation that matches the message of the email (Thank you or Sincerely).
+## PARTS OF AN EMAIL:
+- **TO:** type in the email address of the individual the message is intended for.
+- **CC (Carbon Copy):** Use this to add individuals who need a copy of the email. The original receiver of the email will see this person added.
+- **BCC (Blind Carbon Copy):** Use this when you want another individual to get a copy of the email and only they know they get a copy. The Blind means the original receiver does not know anyone else is getting a copy.
+- **SUBJECT:** Input a clear subject line. Keep is short & simple, but not vague. Include your name, class, & what the email is specifically regarding in the subject.
+- **BODY OF THE EMAIL:** Include a greeting like you would a letter, try to keep emails brief (one screen length), use complete sentences, double check spelling/grammar/punctuation, use professional font (not decorative), & give a proper salutation that matches the message of the email (Thank you or Sincerely).
 
 ## TONE:
 - Don’t email your professor asking and/or complaining about grades. If you have inquiries, schedule an appointment to meet in person to review areas of improvement. 
 - Think about the impression your tone will make in the email. If you are emotionally charged, it is best to wait 24 hours before emailing or responding to emails.
 - Do not write in all CAPITALS. This makes it seem that you are shouting at the receiver.
 - Treat faculty (and other students) with respect. Refrain from bad mouthing or calling unnecessary attention to situations. Golden rule- treat those how you want to be treated.
+
 ## FORMAT:
 - Be mindful of formatting. Special characters, images, fonts, etc. may appear differently on the intended receivers end.
 - Use proper structure and layout. Reading from a screen can be difficult, ensuring your email has a structure and concise layout is important. Make sure you have short paragraphs with spaces in between and use numbers or tick marks when making points.
@@ -42,17 +43,23 @@ folder: ACC
 - Double check your attachments. Always reference your attachment in the body of the email. Do not attach files that are very large and consider sending it as a PDF insted of Word documents.
 
 ## OTHER TIPS:
+
 - Allow the proper amount of response time. This applies to both the sender & receiver. The rule of thumb is 24 hours. If no response occurs after that, you can follow up.
 - Refrain from adding your professor’s Dept. Chair, Program Director, or Dean to an email. If an issue or concern needs to be addressed with all parties, it is easier to do this in person. Schedule a meeting ()
  
 ## BAD EMAIL EXAMPLE:
-To: John.Doe@asu.edu
-Subject: assignment
+
+**To:** John.Doe@asu.edu
+
+**Subject:** assignment
+
 i can’t find the assignment u gave in class. can you send me a new copy? that!
 
 ## GOOD EMAIL EXAMPLE:
-To: John.Doe@asu.edu
-Subject: Jane Lee: Assignment #5 MAT117 MW 9am-10am
+
+**To:** John.Doe@asu.edu
+
+**Subject:** Jane Lee: Assignment #5 MAT117 MW 9am-10am
 
 Dear Professor Doe,
 
