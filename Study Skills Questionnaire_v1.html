@@ -1,0 +1,741 @@
+<!DOCTYPE! html>
+<html>
+<head>
+	<title> Study Skills Questionnaire </title>
+	<style type="text/css">
+		body {
+		   font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif; 
+		   margin: 0;
+		   padding-bottom: 300px;
+		}
+		header {
+			background-color: #0066b3;
+			padding: 0px;
+		}
+		.container {
+			max-width: 820px;
+			margin: 0 auto;
+			padding: 20px;
+		}
+		#logo {
+			max-width: 100%;
+			display: block;
+		}
+		h2{
+			/*font-weight: 500;*/
+			margin-top: 40px;
+			color: #0066b3;
+		}
+		p {
+			border-top: 1px solid #ccc;
+			margin-top: 20px;
+			padding-top: 15px;
+			font-weight: bold;
+		}
+		hr {margin-top: 25px;border-width: 1px;border-color:#000;}
+		label {
+			padding: 5px 5px 8px; 
+			border: 1px solid #efefef;
+			border-radius: 3px;
+			cursor: pointer;
+			background-color: #F8F8F8;
+			display: inline-block;
+			margin-bottom: 4px;
+		}
+		#finalButton {
+			padding: 20px; font-size: 18px;
+			background-color: #0066b3;
+			border-radius: 5px;
+			color: white;
+			max-width: 100%;
+			width: 400px; 
+		}
+		#resultlist p {border-top: none;}
+		#resultlist .title {
+			font-size: 18px; line-height: 35px; font-weight: bold;
+		}
+		#resultlist span {
+			font-weight: normal; line-height: 20px;
+		}
+		.box { 
+			display: block;
+			border: 1px solid #fff;
+			background-color: #ffb81d;
+			padding: 15px;
+		}
+		@media print {
+			body {padding-bottom: 0;}
+			header {display: none;}
+			.questions {display: none;}
+			.questions h1 {display: block;}
+			.allresults {padding-top: 0;margin-top: 0}
+			#resultlist { display: block;}
+			#resultlist h1 {display: none;}
+			#printButton {display: none;}
+
+		}
+		footer p {font-weight: normal;color:#585858;font-size: 13px;}
+	</style>
+</head>
+<body>
+	<header>
+		<div class="container">
+			<img id="logo" src="https://www.alamancecc.edu/wp-content/uploads/2022/07/HORIZ_ACC_Logo.png">	
+		</div>
+	</header>
+
+	<div class="container" style="padding-bottom:0;">
+		<h1>Study Skills Questionnaire</h1>
+	</div>
+
+	<div class="container questions" style="padding-top:0;">
+
+		<p style="border:none;font-weight:normal;">This study skills assessment is for students interested in looking at their academic skills and seeing what areas they are already strong in and what they might be able to improve upon in regards to study skills and test taking strategies.</p>
+
+		<p style="border:none;font-weight:normal;">Be honest in responding since that provides you with the most useful information.  Pay attention to your highest and lowest scores as they will indicate stronger and weaker areas. </p>
+
+	<!--Section-->
+		<h2>Section 1: Time Management and Procrastination</h2>
+		
+		<!-- <h3>Enable Javascript</h3>
+		<p> To score your assessment, javascript must be enabled on your browser. If you are using IE 6.0 and above, a yellow line at the top of this page indicates Javascript is not enabled. Click the yellow line and Allow Blocked Content. If you are unable toget a score after selecting answers to the questions, please enable Javascript.</p> -->
+
+	<!--Question 1-->
+		<p>1. I arrive at classes and other meetings on time.</p>
+		<label><input type="radio" name="group1" value="1">Never &nbsp;</label>
+		<label><input type="radio" name="group1" value="2">Sometimes &nbsp;</label>
+		<label><input type="radio" name="group1" value="3">Usually &nbsp;</label>
+		<label><input type="radio" name="group1" value="4">Always &nbsp;</label>
+
+	<!--Question 2-->
+		<p>2. I devote sufficient study time to each of my courses.</p>
+		<label><input type="radio" name="group2" value="1">Never &nbsp;</label>
+		<label><input type="radio" name="group2" value="2">Sometimes &nbsp;</label>
+		<label><input type="radio" name="group2" value="3">Usually &nbsp;</label>
+		<label><input type="radio" name="group2" value="4">Always &nbsp;</label>
+
+	<!--Question 3-->
+		<p>3. I schedule definite times and outline specific goals for my study time.</p>
+		<label><input type="radio" name="group3" value="1">Never &nbsp;</label>
+		<label><input type="radio" name="group3" value="2">Sometimes &nbsp;</label>
+		<label><input type="radio" name="group3" value="3">Usually &nbsp;</label>
+		<label><input type="radio" name="group3" value="4">Always &nbsp;</label>
+
+	<!--Question 4-->
+		<p>4. I prepare a "to do" list daily.</p>
+		<label><input type="radio" name="group4" value="1">Never &nbsp;</label>
+		<label><input type="radio" name="group4" value="2">Sometimes &nbsp;</label>
+		<label><input type="radio" name="group4" value="3">Usually &nbsp;</label>
+		<label><input type="radio" name="group4" value="4">Always &nbsp;</label>
+
+	<!--Question 5-->
+		<p>5. I avoid activities which tend to interfere with my planned schedule.</p>
+		<label><input type="radio" name="group5" value="1">Never &nbsp;</label>
+		<label><input type="radio" name="group5" value="2">Sometimes &nbsp;</label>
+		<label><input type="radio" name="group5" value="3">Usually &nbsp;</label>
+		<label><input type="radio" name="group5" value="4">Always &nbsp;</label>
+
+	<!--Question 6-->
+		<p>6. I use prime time when I am most alert for study.</p>
+		<label><input type="radio" name="group6" value="1">Never &nbsp;</label>
+		<label><input type="radio" name="group6" value="2">Sometimes &nbsp;</label>
+		<label><input type="radio" name="group6" value="3">Usually &nbsp;</label>
+		<label><input type="radio" name="group6" value="4">Always &nbsp;</label>
+
+	<!--Question 7-->
+		<p>7. At the beginning of the term, I make up daily activity and study schedules.</p>
+		<label><input type="radio" name="group7" value="1">Never &nbsp;</label>
+		<label><input type="radio" name="group7" value="2">Sometimes &nbsp;</label>
+		<label><input type="radio" name="group7" value="3">Usually &nbsp;</label>
+		<label><input type="radio" name="group7" value="4">Always &nbsp;</label>
+
+	<!--Question 8-->
+		<p>8. I begin major course assignments well in advance.</p>
+		<label><input type="radio" name="group8" value="1">Never &nbsp;</label>
+		<label><input type="radio" name="group8" value="2">Sometimes &nbsp;</label>
+		<label><input type="radio" name="group8" value="3">Usually &nbsp;</label>
+		<label><input type="radio" name="group8" value="4">Always &nbsp;</label>
+
+		<hr/>
+		<h2>Section 2: Concentration and Memory</h2>
+
+	<!--Question 1-->
+		<p>1. I have the "study-place" habit, that is, merely being at a certain place at a certain time means time to study.</p>
+		<label><input type="radio" name="group9" value="1">Never &nbsp;</label>
+		<label><input type="radio" name="group9" value="2">Sometimes &nbsp;</label>
+		<label><input type="radio" name="group9" value="3">Usually &nbsp;</label>
+		<label><input type="radio" name="group9" value="4">Always &nbsp;</label>
+
+	<!--Question 2-->
+		<p>2. I study in a place free from auditory and visual distractions.</p>
+		<label><input type="radio" name="group10" value="1">Never &nbsp;</label>
+		<label><input type="radio" name="group10" value="2">Sometimes &nbsp;</label>
+		<label><input type="radio" name="group10" value="3">Usually &nbsp;</label>
+		<label><input type="radio" name="group10" value="4">Always &nbsp;</label>
+
+	<!--Question 3-->
+		<p>3. I find that I am able to concentrate - that is, give undivided attention to the task for at least 20 minutes.</p>
+		<label><input type="radio" name="group11" value="1">Never &nbsp;</label>
+		<label><input type="radio" name="group11" value="2">Sometimes &nbsp;</label>
+		<label><input type="radio" name="group11" value="3">Usually &nbsp;</label>
+		<label><input type="radio" name="group11" value="4">Always &nbsp;</label>
+
+	<!--Question 4-->
+		<p>4. I am confident with the level of concentration I am able to maintain.</p>
+		<label><input type="radio" name="group12" value="1">Never &nbsp;</label>
+		<label><input type="radio" name="group12" value="2">Sometimes &nbsp;</label>
+		<label><input type="radio" name="group12" value="3">Usually &nbsp;</label>
+		<label><input type="radio" name="group12" value="4">Always &nbsp;</label>
+
+	<!--Question 5-->
+		<p>5. I have an accurate understanding of the material I wish to remember.</p>
+		<label><input type="radio" name="group13" value="1">Never &nbsp;</label>
+		<label><input type="radio" name="group13" value="2">Sometimes &nbsp;</label>
+		<label><input type="radio" name="group13" value="3">Usually &nbsp;</label>
+		<label><input type="radio" name="group13" value="4">Always &nbsp;</label>
+
+	<!--Question 6-->
+		<p>6. I learn with the intention of remembering.</p>
+		<label><input type="radio" name="group14" value="1">Never &nbsp;</label>
+		<label><input type="radio" name="group14" value="2">Sometimes &nbsp;</label>
+		<label><input type="radio" name="group14" value="3">Usually &nbsp;</label>
+		<label><input type="radio" name="group14" value="4">Always &nbsp;</label>
+
+	<!--Question 7-->
+		<p>7. I practice the materials I am learning by reciting out loud.</p>
+		<label><input type="radio" name="group15" value="1">Never &nbsp;</label>
+		<label><input type="radio" name="group15" value="2">Sometimes &nbsp;</label>
+		<label><input type="radio" name="group15" value="3">Usually &nbsp;</label>
+		<label><input type="radio" name="group15" value="4">Always &nbsp;</label>
+
+	<!--Question 8-->
+		<p>8. I recall readily those things which I have studied.</p>
+		<label><input type="radio" name="group16" value="1">Never &nbsp;</label>
+		<label><input type="radio" name="group16" value="2">Sometimes &nbsp;</label>
+		<label><input type="radio" name="group16" value="3">Usually &nbsp;</label>
+		<label><input type="radio" name="group16" value="4">Always &nbsp;</label>
+
+		<hr/>
+		<h2>Section 3: Study Aids and Note Taking</h2>
+
+		<p>1. While I am taking notes, I think about how I will use them later.</p>
+		<label><input type="radio" name="group17" value="1">Never &nbsp;</label>
+		<label><input type="radio" name="group17" value="2">Sometimes &nbsp;</label>
+		<label><input type="radio" name="group17" value="3">Usually &nbsp;</label>
+		<label><input type="radio" name="group17" value="4">Always &nbsp;</label>
+
+	<!--Question 2-->
+		<p>2. I understand the lecture and classroom discussion while I am taking notes.</p>
+		<label><input type="radio" name="group18" value="1">Never &nbsp;</label>
+		<label><input type="radio" name="group18" value="2">Sometimes &nbsp;</label>
+		<label><input type="radio" name="group18" value="3">Usually &nbsp;</label>
+		<label><input type="radio" name="group18" value="4">Always &nbsp;</label>
+
+	<!--Question 3-->
+		<p>3. I organize my notes in some meaningful manner (such as outline format).</p>
+		<label><input type="radio" name="group19" value="1">Never &nbsp;</label>
+		<label><input type="radio" name="group19" value="2">Sometimes &nbsp;</label>
+		<label><input type="radio" name="group19" value="3">Usually &nbsp;</label>
+		<label><input type="radio" name="group19" value="4">Always &nbsp;</label>
+
+	<!--Question 4-->
+		<p>4. I review and edit my notes systematically.</p>
+		<label><input type="radio" name="group20" value="1">Never &nbsp;</label>
+		<label><input type="radio" name="group20" value="2">Sometimes &nbsp;</label>
+		<label><input type="radio" name="group20" value="3">Usually &nbsp;</label>
+		<label><input type="radio" name="group20" value="4">Always &nbsp;</label>
+
+	<!--Question 5-->
+		<p>5. I take notes on supplementary reading materials.</p>
+		<label><input type="radio" name="group21" value="1">Never &nbsp;</label>
+		<label><input type="radio" name="group21" value="2">Sometimes &nbsp;</label>
+		<label><input type="radio" name="group21" value="3">Usually &nbsp;</label>
+		<label><input type="radio" name="group21" value="4">Always &nbsp;</label>
+
+	<!--Question 6-->
+		<p>6. I have a system for marking textbooks.</p>
+		<label><input type="radio" name="group22" value="1">Never &nbsp;</label>
+		<label><input type="radio" name="group22" value="2">Sometimes &nbsp;</label>
+		<label><input type="radio" name="group22" value="3">Usually &nbsp;</label>
+		<label><input type="radio" name="group22" value="4">Always &nbsp;</label>
+
+	<!--Question 7-->
+		<p>7. When reading, I mark or underline parts I think are important.</p>
+		<label><input type="radio" name="group23" value="1">Never &nbsp;</label>
+		<label><input type="radio" name="group23" value="2">Sometimes &nbsp;</label>
+		<label><input type="radio" name="group23" value="3">Usually &nbsp;</label>
+		<label><input type="radio" name="group23" value="4">Always &nbsp;</label>
+
+	<!--Question 8-->
+		<p>8. I write notes in the book while I read.</p>
+		<label><input type="radio" name="group24" value="1">Never &nbsp;</label>
+		<label><input type="radio" name="group24" value="2">Sometimes &nbsp;</label>
+		<label><input type="radio" name="group24" value="3">Usually &nbsp;</label>
+		<label><input type="radio" name="group24" value="4">Always &nbsp;</label>
+
+		<hr/>
+		<h2>Section 4: Test Strategies and Test Anxiety</h2>
+
+		<p>1. I try to find out what the exam will cover and how the exam is to be graded.</p>
+		<label><input type="radio" name="group25" value="1">Never &nbsp;</label>
+		<label><input type="radio" name="group25" value="2">Sometimes &nbsp;</label>
+		<label><input type="radio" name="group25" value="3">Usually &nbsp;</label>
+		<label><input type="radio" name="group25" value="4">Always &nbsp;</label>
+
+	<!--Question 2-->
+		<p>2. I feel confident that I am prepared for the exam.</p>
+		<label><input type="radio" name="group26" value="1">Never &nbsp;</label>
+		<label><input type="radio" name="group26" value="2">Sometimes &nbsp;</label>
+		<label><input type="radio" name="group26" value="3">Usually &nbsp;</label>
+		<label><input type="radio" name="group26" value="4">Always &nbsp;</label>
+
+	<!--Question 3-->
+		<p>3. I try to imagine possible test questions during my preparation for an exam.</p>
+		<label><input type="radio" name="group27" value="1">Never &nbsp;</label>
+		<label><input type="radio" name="group27" value="2">Sometimes &nbsp;</label>
+		<label><input type="radio" name="group27" value="3">Usually &nbsp;</label>
+		<label><input type="radio" name="group27" value="4">Always &nbsp;</label>
+
+	<!--Question 4-->
+		<p>4. I take time to understand the exam questions before starting to answer.</p>
+		<label><input type="radio" name="group28" value="1">Never &nbsp;</label>
+		<label><input type="radio" name="group28" value="2">Sometimes &nbsp;</label>
+		<label><input type="radio" name="group28" value="3">Usually &nbsp;</label>
+		<label><input type="radio" name="group28" value="4">Always &nbsp;</label>
+
+	<!--Question 5-->
+		<p>5. I follow directions carefully when taking an exam.</p>
+		<label><input type="radio" name="group29" value="1">Never &nbsp;</label>
+		<label><input type="radio" name="group29" value="2">Sometimes &nbsp;</label>
+		<label><input type="radio" name="group29" value="3">Usually &nbsp;</label>
+		<label><input type="radio" name="group29" value="4">Always &nbsp;</label>
+
+	<!--Question 6-->
+		<p>6. I usually get a good night's rest prior to a scheduled exam.</p>
+		<label><input type="radio" name="group30" value="1">Never &nbsp;</label>
+		<label><input type="radio" name="group30" value="2">Sometimes &nbsp;</label>
+		<label><input type="radio" name="group30" value="3">Usually &nbsp;</label>
+		<label><input type="radio" name="group30" value="4">Always &nbsp;</label>
+
+	<!--Question 7-->
+		<p>7. I am calmly able to recall what I know during an exam.</p>
+		<label><input type="radio" name="group31" value="1">Never &nbsp;</label>
+		<label><input type="radio" name="group31" value="2">Sometimes &nbsp;</label>
+		<label><input type="radio" name="group31" value="3">Usually &nbsp;</label>
+		<label><input type="radio" name="group31" value="4">Always &nbsp;</label>
+
+	<!--Question 8-->
+		<p>8. I understand the structure of different types of tests and am able to prepare for each type.</p>
+		<label><input type="radio" name="group32" value="1">Never &nbsp;</label>
+		<label><input type="radio" name="group32" value="2">Sometimes &nbsp;</label>
+		<label><input type="radio" name="group32" value="3">Usually &nbsp;</label>
+		<label><input type="radio" name="group32" value="4">Always &nbsp;</label>
+
+		<hr/>
+		<h2>Section 5: Organizing and Processing Information</h2>
+
+	<!--Question 1-->
+		<p>1. When reading, I can distinguish readily between important and unimportant points.</p>
+		<label><input type="radio" name="group33" value="1">Never &nbsp;</label>
+		<label><input type="radio" name="group33" value="2">Sometimes &nbsp;</label>
+		<label><input type="radio" name="group33" value="3">Usually &nbsp;</label>
+		<label><input type="radio" name="group33" value="4">Always &nbsp;</label>
+
+	<!--Question 2-->
+		<p>2. I break assignments into manageable parts.</p>
+		<label><input type="radio" name="group34" value="1">Never &nbsp;</label>
+		<label><input type="radio" name="group34" value="2">Sometimes &nbsp;</label>
+		<label><input type="radio" name="group34" value="3">Usually &nbsp;</label>
+		<label><input type="radio" name="group34" value="4">Always &nbsp;</label>
+
+	<!--Question 3-->
+		<p>3. I maintain a critical attitude during my study--thinking before accepting or rejecting.</p>
+		<label><input type="radio" name="group35" value="1">Never &nbsp;</label>
+		<label><input type="radio" name="group35" value="2">Sometimes &nbsp;</label>
+		<label><input type="radio" name="group35" value="3">Usually &nbsp;</label>
+		<label><input type="radio" name="group35" value="4">Always &nbsp;</label>
+
+	<!--Question 4-->
+		<p>4. I relate material learned in one course to materials of other courses.</p>
+		<label><input type="radio" name="group36" value="1">Never &nbsp;</label>
+		<label><input type="radio" name="group36" value="2">Sometimes &nbsp;</label>
+		<label><input type="radio" name="group36" value="3">Usually &nbsp;</label>
+		<label><input type="radio" name="group36" value="4">Always &nbsp;</label>
+
+	<!--Question 5-->
+		<p>5. I try to organize facts in a systematic way.</p>
+		<label><input type="radio" name="group37" value="1">Never &nbsp;</label>
+		<label><input type="radio" name="group37" value="2">Sometimes &nbsp;</label>
+		<label><input type="radio" name="group37" value="3">Usually &nbsp;</label>
+		<label><input type="radio" name="group37" value="4">Always &nbsp;</label>
+
+	<!--Question 6-->
+		<p>6. I use questions to better organize and understand the material I am studying.</p>
+		<label><input type="radio" name="group38" value="1">Never &nbsp;</label>
+		<label><input type="radio" name="group38" value="2">Sometimes &nbsp;</label>
+		<label><input type="radio" name="group38" value="3">Usually &nbsp;</label>
+		<label><input type="radio" name="group38" value="4">Always &nbsp;</label>
+
+	<!--Question 7-->
+		<p>7. I try to find the best method to do a given job.</p>
+		<label><input type="radio" name="group39" value="1">Never &nbsp;</label>
+		<label><input type="radio" name="group39" value="2">Sometimes &nbsp;</label>
+		<label><input type="radio" name="group39" value="3">Usually &nbsp;</label>
+		<label><input type="radio" name="group39" value="4">Always &nbsp;</label>
+
+	<!--Question 8-->
+		<p>8. I solve a problem by focusing on its main point.</p>
+		<label><input type="radio" name="group40" value="1">Never &nbsp;</label>
+		<label><input type="radio" name="group40" value="2">Sometimes &nbsp;</label>
+		<label><input type="radio" name="group40" value="3">Usually &nbsp;</label>
+		<label><input type="radio" name="group40" value="4">Always &nbsp;</label>
+
+	<hr/>
+
+		<h2>Section 6: Motivation and Attitude</h2>
+
+	<!--Question 1-->
+		<p>1. I sit near the front of the class if possible.</p>
+		<label><input type="radio" name="group41" value="1">Never &nbsp;</label>
+		<label><input type="radio" name="group41" value="2">Sometimes &nbsp;</label>
+		<label><input type="radio" name="group41" value="3">Usually &nbsp;</label>
+		<label><input type="radio" name="group41" value="4">Always &nbsp;</label>
+
+	<!--Question 2-->
+		<p>2. I am alert in classes.</p>
+		<label><input type="radio" name="group42" value="1">Never &nbsp;</label>
+		<label><input type="radio" name="group42" value="2">Sometimes &nbsp;</label>
+		<label><input type="radio" name="group42" value="3">Usually &nbsp;</label>
+		<label><input type="radio" name="group42" value="4">Always &nbsp;</label>
+
+	<!--Question 3-->
+		<p>3. I ask the instructor questions when clarification is needed.</p>
+		<label><input type="radio" name="group43" value="1">Never &nbsp;</label>
+		<label><input type="radio" name="group43" value="2">Sometimes &nbsp;</label>
+		<label><input type="radio" name="group43" value="3">Usually &nbsp;</label>
+		<label><input type="radio" name="group43" value="4">Always &nbsp;</label>
+
+	<!--Question 4-->
+		<p>4. I volunteer answers to questions posed by instructors in the class.</p>
+		<label><input type="radio" name="group44" value="1">Never &nbsp;</label>
+		<label><input type="radio" name="group44" value="2">Sometimes &nbsp;</label>
+		<label><input type="radio" name="group44" value="3">Usually &nbsp;</label>
+		<label><input type="radio" name="group44" value="4">Always &nbsp;</label>
+
+	<!--Question 5-->
+		<p>5. I participate in meaningful class discussions.</p>
+		<label><input type="radio" name="group45" value="1">Never &nbsp;</label>
+		<label><input type="radio" name="group45" value="2">Sometimes &nbsp;</label>
+		<label><input type="radio" name="group45" value="3">Usually &nbsp;</label>
+		<label><input type="radio" name="group45" value="4">Always &nbsp;</label>
+
+	<!--Question 6-->
+		<p>6. I attend class regularly.</p>
+		<label><input type="radio" name="group46" value="1">Never &nbsp;</label>
+		<label><input type="radio" name="group46" value="2">Sometimes &nbsp;</label>
+		<label><input type="radio" name="group46" value="3">Usually &nbsp;</label>
+		<label><input type="radio" name="group46" value="4">Always &nbsp;</label>
+
+	<!--Question 7-->
+		<p>7. I take the initiative in group activities.</p>
+		<label><input type="radio" name="group47" value="1">Never &nbsp;</label>
+		<label><input type="radio" name="group47" value="2">Sometimes &nbsp;</label>
+		<label><input type="radio" name="group47" value="3">Usually &nbsp;</label>
+		<label><input type="radio" name="group47" value="4">Always &nbsp;</label>
+
+	<!--Question 8-->
+		<p>8. I use a study method which helps me develop an interest in the material to be studied.</p>
+		<label><input type="radio" name="group48" value="1">Never &nbsp;</label>
+		<label><input type="radio" name="group48" value="2">Sometimes &nbsp;</label>
+		<label><input type="radio" name="group48" value="3">Usually &nbsp;</label>
+		<label><input type="radio" name="group48" value="4">Always &nbsp;</label>
+
+	<hr/>
+
+		<h2>Section 7: Reading and Selecting Main Idea</h2>
+
+	<!--Question 1-->
+		<p>1. I survey each chapter before I begin reading.</p>
+		<label><input type="radio" name="group49" value="1">Never &nbsp;</label>
+		<label><input type="radio" name="group49" value="2">Sometimes &nbsp;</label>
+		<label><input type="radio" name="group49" value="3">Usually &nbsp;</label>
+		<label><input type="radio" name="group49" value="4">Always &nbsp;</label>
+
+	<!--Question 2-->
+		<p>2. I follow the writer's organization to increase meaning.</p>
+		<label><input type="radio" name="group50" value="1">Never &nbsp;</label>
+		<label><input type="radio" name="group50" value="2">Sometimes &nbsp;</label>
+		<label><input type="radio" name="group50" value="3">Usually &nbsp;</label>
+		<label><input type="radio" name="group50" value="4">Always &nbsp;</label>
+
+	<!--Question 3-->
+		<p>3. I review reading material several times during a semester.</p>
+		<label><input type="radio" name="group51" value="1">Never &nbsp;</label>
+		<label><input type="radio" name="group51" value="2">Sometimes &nbsp;</label>
+		<label><input type="radio" name="group51" value="3">Usually &nbsp;</label>
+		<label><input type="radio" name="group51" value="4">Always &nbsp;</label>
+
+	<!--Question 4-->
+		<p>4. When learning a unit of material, I summarize it in my own words.</p>
+		<label><input type="radio" name="group52" value="1">Never &nbsp;</label>
+		<label><input type="radio" name="group52" value="2">Sometimes &nbsp;</label>
+		<label><input type="radio" name="group52" value="3">Usually &nbsp;</label>
+		<label><input type="radio" name="group52" value="4">Always &nbsp;</label>
+
+	<!--Question 5-->
+		<p>5. I am comfortable with my reading rate.</p>
+		<label><input type="radio" name="group53" value="1">Never &nbsp;</label>
+		<label><input type="radio" name="group53" value="2">Sometimes &nbsp;</label>
+		<label><input type="radio" name="group53" value="3">Usually &nbsp;</label>
+		<label><input type="radio" name="group53" value="4">Always &nbsp;</label>
+
+	<!--Question 6-->
+		<p>6. I look up parts I don't understand.</p>
+		<label><input type="radio" name="group54" value="1">Never &nbsp;</label>
+		<label><input type="radio" name="group54" value="2">Sometimes &nbsp;</label>
+		<label><input type="radio" name="group54" value="3">Usually &nbsp;</label>
+		<label><input type="radio" name="group54" value="4">Always &nbsp;</label>
+
+	<!--Question 7-->
+		<p>7. I am satisfied with my reading ability.</p>
+		<label><input type="radio" name="group55" value="1">Never &nbsp;</label>
+		<label><input type="radio" name="group55" value="2">Sometimes &nbsp;</label>
+		<label><input type="radio" name="group55" value="3">Usually &nbsp;</label>
+		<label><input type="radio" name="group55" value="4">Always &nbsp;</label>
+
+	<!--Question 8-->
+		<p>8. I focus on the main point while reading.</p>
+		<label><input type="radio" name="group56" value="1">Never &nbsp;</label>
+		<label><input type="radio" name="group56" value="2">Sometimes &nbsp;</label>
+		<label><input type="radio" name="group56" value="3">Usually &nbsp;</label>
+		<label><input type="radio" name="group56" value="4">Always &nbsp;</label>
+
+		<hr/>
+		<h2>Section 8: Writing</h2>
+
+	<!--Question 1-->
+		<p>1. I find that I am able to express my thoughts well in writing.</p>
+		<label><input type="radio" name="group57" value="1">Never &nbsp;</label>
+		<label><input type="radio" name="group57" value="2">Sometimes &nbsp;</label>
+		<label><input type="radio" name="group57" value="3">Usually &nbsp;</label>
+		<label><input type="radio" name="group57" value="4">Always &nbsp;</label>
+
+	<!--Question 2-->
+		<p>2. I write rough drafts quickly and spontaneously from notes.</p>
+		<label><input type="radio" name="group58" value="1">Never &nbsp;</label>
+		<label><input type="radio" name="group58" value="2">Sometimes &nbsp;</label>
+		<label><input type="radio" name="group58" value="3">Usually &nbsp;</label>
+		<label><input type="radio" name="group58" value="4">Always &nbsp;</label>
+
+	<!--Question 3-->
+		<p>3. I put aside a written assignment for a day or so, then rewrite it.</p>
+		<label><input type="radio" name="group59" value="1">Never &nbsp;</label>
+		<label><input type="radio" name="group59" value="2">Sometimes &nbsp;</label>
+		<label><input type="radio" name="group59" value="3">Usually &nbsp;</label>
+		<label><input type="radio" name="group59" value="4">Always &nbsp;</label>
+
+	<!--Question 4-->
+		<p>4. I review my writing for grammatical errors.</p>
+		<label><input type="radio" name="group60" value="1">Never &nbsp;</label>
+		<label><input type="radio" name="group60" value="2">Sometimes &nbsp;</label>
+		<label><input type="radio" name="group60" value="3">Usually &nbsp;</label>
+		<label><input type="radio" name="group60" value="4">Always &nbsp;</label>
+
+	<!--Question 5-->
+		<p>5. I have someone else read my written work and consider their suggestions for improved writing.</p>
+		<label><input type="radio" name="group61" value="1">Never &nbsp;</label>
+		<label><input type="radio" name="group61" value="2">Sometimes &nbsp;</label>
+		<label><input type="radio" name="group61" value="3">Usually &nbsp;</label>
+		<label><input type="radio" name="group61" value="4">Always &nbsp;</label>
+
+	<!--Question 6-->
+		<p>6. I am comfortable using library sources for research.</p>
+		<label><input type="radio" name="group62" value="1">Never &nbsp;</label>
+		<label><input type="radio" name="group62" value="2">Sometimes &nbsp;</label>
+		<label><input type="radio" name="group62" value="3">Usually &nbsp;</label>
+		<label><input type="radio" name="group62" value="4">Always &nbsp;</label>
+
+	<!--Question 7-->
+		<p>7. I am able to narrow a topic for an essay, research paper, etc.</p>
+		<label><input type="radio" name="group63" value="1">Never &nbsp;</label>
+		<label><input type="radio" name="group63" value="2">Sometimes &nbsp;</label>
+		<label><input type="radio" name="group63" value="3">Usually &nbsp;</label>
+		<label><input type="radio" name="group63" value="4">Always &nbsp;</label>
+
+	<!--Question 8-->
+		<p>8. I allow sufficient time to collect information, organize material, and write the assignment.</p>
+		<label><input type="radio" name="group64" value="1">Never &nbsp;</label>
+		<label><input type="radio" name="group64" value="2">Sometimes &nbsp;</label>
+		<label><input type="radio" name="group64" value="3">Usually &nbsp;</label>
+		<label><input type="radio" name="group64" value="4">Always &nbsp;</label>
+
+		<hr/>
+		<br/>
+
+		<button id="finalButton" onclick="test()">View Results</button>
+
+	</div>
+	<div class="container allresults">
+		<div id="resultlist" name="resulted"></div>
+	</div>
+
+	<footer>
+		<div class="container">
+		<!-- 
+            <p>Adapted from the University of Houston Clear Lake Study Skills Assessment <a target="_blank" href="https://www.uhcl.edu/cmhc/resources/documents/handouts/study-skills-assessment.pdf">Questionnaire</a>, with permission.</p>
+			<p>Adapted from the University of Houston Clear Lake Study Skills Assessment <a target="_blank" href="https://www.uhcl.edu/cmhc/resources/documents/handouts/study-skills-assessment-questionnaire.pdf">Questionnaire</a>, with permission.</p> 
+        -->
+        </div>
+	</footer>
+
+<script type="text/javascript">
+
+	var total=0;
+
+	function test () {
+		var arr1=[];
+		var arr2=[];
+		var arr3=[];
+		for (var i = 1; i < 65; i++) {
+			var name = 'group' + i;
+			var gg = document.getElementsByName(name);
+			var score = 0;
+			for (var j = 0; j < gg.length; j++) {
+				if (gg[j].checked) {
+					// console.log(gg[j].value);
+					score = gg[j].value;
+				}
+			};
+			arr1.push(score)
+		};
+		console.log(arr1)
+
+		for (var k = 0; k < 8; k++) {
+			var tmpSum=0;
+			for (var l = k*8; l < (k*8+8); l++) {
+				tmpSum += parseInt(arr1[l]);
+			};
+			arr2.push(tmpSum);
+			arr3.push(compare(tmpSum));
+		};
+		console.log(arr2);
+		console.log(arr3);
+
+		var result1, result2, result3, result4, result5, result6, result7, result8;
+
+		// Time Management
+		if ( arr3[0] == 0 ) {
+			result1 = "You could benefit from strengthening your time management skills.  Please make an appointment with a UPO advisor who can work with you on strengthening these skills"
+		} else if ( arr3[0] == 1) {
+			result1 = "You are using many of the recommended time management strategies.  Please make an appointment with a UPO advisor for tips to improve these skills."
+		} else {
+			result1 = "Your consistent application of good time management skills is helping you in your academic work.  You are welcome to meet with a UPO advisor if you feel that you need to brush up on some of your methods."
+		};
+
+		// Concentration & Memory
+		if ( arr3[1] == 0 ) {
+			result2 = "You could benefit from strengthening your ability to concentrate and to remember or retain information. Please make an appointment with either the Educational Resource Center (ERC) or UPO to discuss how methods for doing so."
+		} else if ( arr3[1] == 1) {
+			result2 = "You have moderately good strategies for concentration and memory.  You may need to identify additional strategies to improve your skills in this area.  You should explore the recourses the Educational Resource Center (ERC) has to offer or make an appointment with a UPO advisor."
+		} else {
+			result2 = "Your level of concentration and memory skills are helping you in your academic work.  You are welcome to meet with a UPO advisor if you feel that you need to brush up on some of your methods."
+		};
+
+		// Study Aids & Note Taking
+		if ( arr3[2] == 0 ) {
+			result3 = "You definitely need to obtain additional skills.  You will benefit from strengthening your use of study aids and note-taking strategies.  Please make an appointment with either the Educational Resource Center (ERC) to learn more about their workshops as well as make an appointment with a UPO advisor."
+		} else if ( arr3[2] == 1) {
+			result3 = "You have developed some moderately good note-taking skills.  However, you may not be consistent in applying those skills.  Please review the resources that the Educational Resource Center (ERC) provides and make an appointment with a UPO advisor if you’d like to discuss this further."
+		} else {
+			result3 = "Your use of study aids and note-taking skills are helping you in your academic work.  You are welcome to meet with a UPO advisor if you feel that you need to brush up on some of your methods."
+		};
+
+		// Test Strategies & Test Anxiety
+		if ( arr3[3] == 0 ) {
+			result4 = "You will benefit from strengthening your test taking strategies.  We encourage and recommend that you make use of the Educational Resource Center (ERC) as well as meet with a UPO advisor."
+		} else if ( arr3[3] == 1) {
+			result4 = "You are probably pretty good at taking tests, however you may want to revisit some of your strategies.  You can improve in this area by exploring the resources available to you through the Educational Resource Center (ERC) as well as meeting with a UPO advisor."
+		} else {
+			result4 = "You have developed good test taking strategies and are able to employ useful coping skills when needed to minimize the effects of test anxiety.  You are always welcome to meet with a UPO advisor if you feel that you need to brush up on some of your methods."
+		};
+
+		// Organizing & Processing Information
+		if ( arr3[4] == 0 ) {
+			result5 = "You will benefit from increasing your awareness of your best learning style and by applying the strategies that different learning tasks require.  We encourage and recommend that you make use of the Educational Resource Center (ERC), the Office of Disability Services (in case testing is required so that course content can be delivered in another manner), and the UPO."
+		} else if ( arr3[4] == 1) {
+			result5 = "You may not be using the best strategies for your particular learning style.  You can improve in this area by exploring the resources available to you through the Educational Resource Center (ERC) as well as by meeting with a UPO advisor."
+		} else {
+			result5 = "Your skills in this area reflect good use of the strategies required to effectively organize and process information to enhance your learning.  You are welcome to meet with a UPO advisor if you feel that you need to brush up on some of your methods."
+		};
+
+		// Motivation, Class Participation, & Attitude
+		if ( arr3[5] == 0 ) {
+			result6 = "You need to focus on increasing your awareness of how your confidence, academic behavior, and attitude effect your motivation to learn.  We encourage and recommend that you make use of the Educational Resource Center (ERC) and meet with a UPO advisor."
+		} else if ( arr3[5] == 1) {
+			result6 = "Your score reflects a moderately good use of strategies to sustain motivation and responsibility for your academic success.  You can improve in this area by exploring the help available to you by making an appointment with a UPO advisor."
+		} else {
+			result6 = "Your academic behaviors indicate a positive attitude about taking responsibility for maintaining motivation to succeed academically.  You are always welcome to meet with a UPO advisor to discuss ways of fine-tuning your skills."
+		};
+
+		// Reading & Selecting Main Ideas
+		if ( arr3[6] == 0 ) {
+			result7 = "Reading is an important skill for learning.  You may need to identify additional strategies to improve in this area.  We encourage and recommend that you make use of the Educational Resource Center (ERC), the UPO, and the Office of Disability Services."
+		} else if ( arr3[6] == 1) {
+			result7 = "You are probably using the recommended reading strategies only some of the time.  The resources available through the Educational Resource Center (ERC), the UPO, and the Office of Disability Services will help you improve your reading and comprehension strategies."
+		} else {
+			result7 = "You have developed good reading strategies.  The resources available through the Educational Resource Center (ERC) and the UPO can serve as a review should you feel that you need it."
+		};
+
+		// Writing
+		if ( arr3[7] == 0 ) {
+			result8 = "You definitely need to strengthen your strategies in this area.  We encourage and recommend that you make use of the Educational Resource Center (ERC), the CAS Center for Writing, and the SMG writing faculty."
+		} else if ( arr3[7] == 1) {
+			result8 = "You have moderately good writing strategies.  You may need to improve your skills in this area and should therefore explore the resources provided by the Educational Resource Center (ERC), the CAS Center for Writing, and your SMG writing faculty."
+		} else {
+			result8 = "Your writing skills are helping you in your academic work.  The resources available through the Educational Resource Center (ERC), the CAS Center for Writing, and your SMG writing faculty can serve as a review for you should you need it."
+		};
+		var htmlstr = "<h1>Results</h1><p><span class='title'>Section 1: Time Management and Procrastination</span><br/><span>Score: " + arr2[0] + " out of 32</span><br/><span class='box'>" + result1 + "</span>";
+		htmlstr += "<p><span class='title'>Section 2: Concentration and Memory</span><br/><span>Score: " + arr2[1] + " out of 32</span><br/><span class='box'>" + result2 + "</span>";
+		htmlstr += "<p><span class='title'>Section 3: Study Aids and Note Taking</span><br/><span>Score: " + arr2[2] + " out of 32</span><br/><span class='box'>" + result3 + "</span>";
+		htmlstr += "<p><span class='title'>Section 4: Test Strategies and Test Anxiety</span><br/><span>Score: " + arr2[3] + " out of 32</span><br/><span class='box'>" + result4 + "</span>";
+		htmlstr += "<p><span class='title'>Section 5: Organizing and Processing Information</span><br/><span>Score: " + arr2[4] + " out of 32</span><br/><span class='box'>" + result5 + "</span>";
+		htmlstr += "<p><span class='title'>Section 6: Motivation and Attitude</span><br/><span>Score: " + arr2[5] + " out of 32</span><br/><span class='box'>" + result6 + "</span>";
+		htmlstr += "<p><span class='title'>Section 7: Reading and Selecting Main Idea</span><br/><span>Score: " + arr2[6] + " out of 32</span><br/><span class='box'>" + result7 + "</span>";
+		htmlstr += "<p><span class='title'>Section 8: Writing</span><br/><span>Score: " + arr2[7] + " out of 32</span><br/><span class='box'>" + result8 + "</span>";
+		htmlstr += "<br/><br/><br/><br/><button type='button' id='printButton' value='Print' onClick='window.print()'>Print</button>";
+		
+		var resulted = document.getElementById('resultlist')
+		resulted.innerHTML = htmlstr;
+		resulted.scrollIntoView();
+
+
+	}
+
+	function compare (zscore) {
+		if (zscore <= 20) {
+			return 0;
+		} else if ((zscore > 20) && (zscore <=28)) {
+			return 1;
+		} else {
+			return 2;
+		};
+	};
+
+
+	  var _gaq = _gaq || [];
+	  _gaq.push(['_setAccount', 'UA-18202658-1']);
+	  _gaq.push(['_trackPageview']);
+
+	  (function() {
+	    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+	    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+	    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+	  })();
+
+</script>
+
+
+
+
+</body>
+</html>
